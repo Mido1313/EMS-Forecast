@@ -1,0 +1,76 @@
+Diplomarbeit
+
+Dokumentation:
+- Titel -> Name + kurze Beschreibung (Slogan)
+- Meilensteine min. 5-7 Stück mit Datum (Abgabe kein Meilenstein)
+- Pitch
+- Projektauftrag
+- Präsentation 
+
+
+Themen Ideen:
+- Modell zur Ermittlung von Einsätzen des Roten Kreuzes
+
+Diplomarbeit Wichtige Infos
+- in LateX schreiben
+- weitere Infos in LeoWiki
+
+ToDos: (Guide, Manual, Docs, Device, Manager, 
+- GitHub (Mido + Merjem)
+- Latex + Documentary (Projektauftrag, Projekthistorie) (Lukas)
+- Frontend (Flutter) (Lukas)
+- Backend (.NET + EF)
+-- UserProfiles (Keycloak oÄ) (Lukas)
+-- DB (EF) (Merjem)
+-- Datenerfassung (Anleitungen) (Mido + Merjem)
+-- OCR Bilder (Mido) 
+-- KI-Suche für einzelne Tasks
+- Meilensteinerfassung + Plan (allesamt)
+- Pitch + Präsentation (alle)
+
+Merjem (Data Lead)
+Datenmodell: 10h
+Datengenerierung: 15h
+DB Setup: 10h
+Cleaning: 10h
+Analyse: 10h
+Doku: 25h
+👉 ~80h
+
+Mido (ML Lead)
+Feature Engineering: 15h
+Datenaufbereitung: 10h
+Modell bauen: 15h
+Evaluation: 10h
+Experimente: 10h
+Doku: 25h
+👉 ~85h
+
+Lukas (System Lead)
+API: 15h
+DB Integration: 10h
+Frontend Map: 20h
+Visualisierung: 15h
+Integration: 10h
+Doku: 25h
+👉 ~95h
+
+Datenerhebung:
+- Welche Daten?
+- Woher Daten?
+- Wie viele Daten?
+
+
+-------------------------------------------------------------------------------------
+Allein in Oberösterreich ist das Rote Kreuz rund 6.000 Mal täglich im Einsatz.
+
+Das zeigt, wie komplex und dynamisch der Rettungsdienst tatsächlich ist – und wie wichtig es ist, Ressourcen optimal zu verteilen.
+
+Genau hier setzt unser Projekt an.
+
+Wir entwickeln ein System, das historische Einsatzdaten analysiert und daraus vorhersagt, in welchen Gebieten die Wahrscheinlichkeit für zukünftige Einsätze am höchsten ist. Dabei geht es nicht darum, den exakten Einsatzort zu bestimmen, sondern Muster zu erkennen – zum Beispiel Unterschiede zwischen Tageszeiten, Wochentagen oder Regionen.
+
+Diese Wahrscheinlichkeiten werden anschließend in einer interaktiven Karte dargestellt, sodass Einsatzleiter auf einen Blick erkennen können, wo aktuell ein erhöhtes Risiko besteht.
+
+Unser Ziel ist es zu zeigen, wie datenbasierte Ansätze helfen können, Fahrzeuge besser zu positionieren, Reaktionszeiten zu verkürzen und den Rettungsdienst effizienter zu unterstützen.
+-------------------------------------------------------------------------------------
