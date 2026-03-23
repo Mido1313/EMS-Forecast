@@ -1,0 +1,551 @@
+{
+  "titel": "Feiertage und Ferien in OÖ",
+  "sektionen": [
+    {
+      "ueberschrift": "Feiertage und Ferien in OÖ 2024",
+      "jahr": 2024,
+      "eintraege": [
+        {
+          "typ": "Feiertag",
+          "name": "Neujahr",
+          "start": "01.01.2024",
+          "ende": "01.01.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Heilige Drei Könige",
+          "start": "06.01.2024",
+          "ende": "06.01.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Ostermontag",
+          "start": "01.04.2024",
+          "ende": "01.04.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Staatsfeiertag",
+          "start": "01.05.2024",
+          "ende": "01.05.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Christi Himmelfahrt",
+          "start": "09.05.2024",
+          "ende": "09.05.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Pfingstmontag",
+          "start": "20.05.2024",
+          "ende": "20.05.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Fronleichnam",
+          "start": "30.05.2024",
+          "ende": "30.05.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Mariä Himmelfahrt",
+          "start": "15.08.2024",
+          "ende": "15.08.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Nationalfeiertag",
+          "start": "26.10.2024",
+          "ende": "26.10.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Allerheiligen",
+          "start": "01.11.2024",
+          "ende": "01.11.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Mariä Empfängnis",
+          "start": "08.12.2024",
+          "ende": "08.12.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Heiligabend",
+          "start": "24.12.2024",
+          "ende": "24.12.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Christtag",
+          "start": "25.12.2024",
+          "ende": "25.12.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Stefanitag",
+          "start": "26.12.2024",
+          "ende": "26.12.2024"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Silvester",
+          "start": "31.12.2024",
+          "ende": "31.12.2024"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Weihnachtsferien",
+          "start": "23.12.2023",
+          "ende": "06.01.2024"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Semesterferien",
+          "start": "19.02.2024",
+          "ende": "25.02.2024"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Osterferien",
+          "start": "23.03.2024",
+          "ende": "01.04.2024"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Pfingstferien",
+          "start": "18.05.2024",
+          "ende": "20.05.2024"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Sommerferien",
+          "start": "06.07.2024",
+          "ende": "08.09.2024"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Herbstferien",
+          "start": "28.10.2024",
+          "ende": "31.10.2024"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Weihnachtsferien",
+          "start": "24.12.2024",
+          "ende": "06.01.2025"
+        }
+      ]
+    },
+    {
+      "ueberschrift": "Feiertage und Ferien in OÖ 2025",
+      "jahr": 2025,
+      "eintraege": [
+        {
+          "typ": "Feiertag",
+          "name": "Neujahr",
+          "start": "01.01.2025",
+          "ende": "01.01.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Heilige Drei Könige",
+          "start": "06.01.2025",
+          "ende": "06.01.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Ostermontag",
+          "start": "21.04.2025",
+          "ende": "21.04.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Staatsfeiertag",
+          "start": "01.05.2025",
+          "ende": "01.05.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Christi Himmelfahrt",
+          "start": "29.05.2025",
+          "ende": "29.05.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Pfingstmontag",
+          "start": "09.06.2025",
+          "ende": "09.06.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Fronleichnam",
+          "start": "19.06.2025",
+          "ende": "19.06.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Mariä Himmelfahrt",
+          "start": "15.08.2025",
+          "ende": "15.08.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Nationalfeiertag",
+          "start": "26.10.2025",
+          "ende": "26.10.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Allerheiligen",
+          "start": "01.11.2025",
+          "ende": "01.11.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Mariä Empfängnis",
+          "start": "08.12.2025",
+          "ende": "08.12.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Heiligabend (½ Tag)",
+          "start": "24.12.2025",
+          "ende": "24.12.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Christtag",
+          "start": "25.12.2025",
+          "ende": "25.12.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Stefanitag",
+          "start": "26.12.2025",
+          "ende": "26.12.2025"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Silvester",
+          "start": "31.12.2025",
+          "ende": "31.12.2025"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Weihnachtsferien",
+          "start": "23.12.2024",
+          "ende": "06.01.2025"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Semesterferien",
+          "start": "17.02.2025",
+          "ende": "22.02.2025"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Osterferien",
+          "start": "12.04.2025",
+          "ende": "21.04.2025"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Pfingstferien",
+          "start": "07.06.2025",
+          "ende": "09.06.2025"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Sommerferien",
+          "start": "05.07.2025",
+          "ende": "07.09.2025"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Herbstferien",
+          "start": "27.10.2025",
+          "ende": "31.10.2025"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Weihnachtsferien",
+          "start": "24.12.2025",
+          "ende": "06.01.2026"
+        }
+      ]
+    },
+    {
+      "ueberschrift": "Feiertage und Ferien in OÖ 2026",
+      "jahr": 2026,
+      "eintraege": [
+        {
+          "typ": "Feiertag",
+          "name": "Neujahr",
+          "start": "01.01.2026",
+          "ende": "01.01.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Heilige Drei Könige",
+          "start": "06.01.2026",
+          "ende": "06.01.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Ostermontag",
+          "start": "06.04.2026",
+          "ende": "06.04.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Staatsfeiertag",
+          "start": "01.05.2026",
+          "ende": "01.05.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Christi Himmelfahrt",
+          "start": "14.05.2026",
+          "ende": "14.05.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Pfingstmontag",
+          "start": "25.05.2026",
+          "ende": "25.05.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Fronleichnam",
+          "start": "04.06.2026",
+          "ende": "04.06.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Mariä Himmelfahrt",
+          "start": "15.08.2026",
+          "ende": "15.08.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Nationalfeiertag",
+          "start": "26.10.2026",
+          "ende": "26.10.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Allerheiligen",
+          "start": "01.11.2026",
+          "ende": "01.11.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Mariä Empfängnis",
+          "start": "08.12.2026",
+          "ende": "08.12.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Heiligabend",
+          "start": "24.12.2026",
+          "ende": "24.12.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Christtag",
+          "start": "25.12.2026",
+          "ende": "25.12.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Stefanitag",
+          "start": "26.12.2026",
+          "ende": "26.12.2026"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Silvester",
+          "start": "31.12.2026",
+          "ende": "31.12.2026"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Weihnachtsferien",
+          "start": "24.12.2025",
+          "ende": "06.01.2026"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Semesterferien",
+          "start": "16.02.2026",
+          "ende": "21.02.2026"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Osterferien",
+          "start": "28.03.2026",
+          "ende": "06.04.2026"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Pfingstferien",
+          "start": "23.05.2026",
+          "ende": "25.05.2026"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Sommerferien",
+          "start": "11.07.2026",
+          "ende": "13.09.2026"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Herbstferien",
+          "start": "27.10.2026",
+          "ende": "31.10.2026"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Weihnachtsferien",
+          "start": "24.12.2026",
+          "ende": "06.01.2027"
+        }
+      ]
+    },
+    {
+      "ueberschrift": "Feiertage und Ferien in OÖ 2027",
+      "jahr": 2027,
+      "eintraege": [
+        {
+          "typ": "Feiertag",
+          "name": "Neujahr",
+          "start": "01.01.2027",
+          "ende": "01.01.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Heilige Drei Könige",
+          "start": "06.01.2027",
+          "ende": "06.01.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Ostermontag",
+          "start": "29.03.2027",
+          "ende": "29.03.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Staatsfeiertag",
+          "start": "01.05.2027",
+          "ende": "01.05.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Christi Himmelfahrt",
+          "start": "06.05.2027",
+          "ende": "06.05.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Pfingstmontag",
+          "start": "17.05.2027",
+          "ende": "17.05.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Fronleichnam",
+          "start": "27.05.2027",
+          "ende": "27.05.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Mariä Himmelfahrt",
+          "start": "15.08.2027",
+          "ende": "15.08.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Nationalfeiertag",
+          "start": "26.10.2027",
+          "ende": "26.10.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Allerheiligen",
+          "start": "01.11.2027",
+          "ende": "01.11.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Mariä Empfängnis",
+          "start": "08.12.2027",
+          "ende": "08.12.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Heiligabend",
+          "start": "24.12.2027",
+          "ende": "24.12.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Christtag",
+          "start": "25.12.2027",
+          "ende": "25.12.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Stefanitag",
+          "start": "26.12.2027",
+          "ende": "26.12.2027"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Silvester",
+          "start": "31.12.2027",
+          "ende": "31.12.2027"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Weihnachtsferien",
+          "start": "24.12.2026",
+          "ende": "06.01.2027"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Semesterferien",
+          "start": "15.02.2027",
+          "ende": "20.02.2027"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Osterferien",
+          "start": "20.03.2027",
+          "ende": "29.03.2027"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Pfingstferien",
+          "start": "15.05.2027",
+          "ende": "17.05.2027"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Sommerferien",
+          "start": "10.07.2027",
+          "ende": "12.09.2027"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Herbstferien",
+          "start": "27.10.2027",
+          "ende": "31.10.2027"
+        }
+      ]
+    }
+  ]
+}

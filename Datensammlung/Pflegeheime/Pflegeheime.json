@@ -1,0 +1,874 @@
+{
+  "pflegeheime": [
+    //START LINZ
+    {
+      "name": "Seniorenzentrum Dornach/Auhof",
+      "ort": "Linz",
+      "plz": "4040",
+      "pflegepaetze": 120
+    },
+    {
+      "name": "Seniorenzentrum Ebelsberg",
+      "ort": "Linz",
+      "plz": "4030",
+      "pflegepaetze": 28
+    },
+    {
+      "name": "Seniorenzentrum Franz Hillinger",
+      "ort": "Linz",
+      "plz": "4040",
+      "pflegepaetze": 130
+    },
+    {
+      "name": "Seniorenzentrum Franckviertel",
+      "ort": "Linz",
+      "plz": "4020",
+      "pflegepaetze": 120
+    },
+    {
+      "name": "Seniorenzentrum Keferfeld/Oed",
+      "ort": "Linz",
+      "plz": "4020",
+      "pflegepaetze": 87
+    },
+    {
+      "name": "Seniorenzentrum Kleinmünchen",
+      "ort": "Linz",
+      "plz": "4020",
+      "pflegepaetze": 120
+    },
+    {
+      "name": "Seniorenzentrum Liebigstraße",
+      "ort": "Linz",
+      "plz": "4020",
+      "pflegepaetze": 120
+    },
+    {
+      "name": "Seniorenzentrum Heue Heimat",
+      "ort": "Linz",
+      "plz": "4030",
+      "pflegepaetze": 126
+    },
+    {
+      "name": "Seniorenzentrum Pichling",
+      "ort": "Linz",
+      "plz": "4030",
+      "pflegepaetze": 64
+    },
+    {
+      "name": "Seniorenzentrum Spallerhof",
+      "ort": "Linz",
+      "plz": "4020",
+      "pflegepaetze": 245
+    },
+    {
+      "name": "Haus für Senioren Linz",
+      "ort": "Linz",
+      "plz": "4020",
+      "pflegepaetze": 49
+    },
+    {
+      "name": "Seniorenwohnhaus St.Anna",
+      "ort": "Linz",
+      "plz": "4020",
+      "pflegepaetze": 86
+    },
+    {
+      "name": "Seniorenheim Franziskusschwestern",
+      "ort": "Linz",
+      "plz": "4020",
+      "pflegepaetze": 124
+    },
+    {
+      "name": "Rudigier Wohnen mit Pflege",
+      "ort": "Linz",
+      "plz": "4020",
+      "pflegepaetze": 100
+    },
+    {
+      "name": "Seniorenwohnhaus Karl Borromäus",
+      "ort": "Linz",
+      "plz": "4020",
+      "pflegepaetze": 123
+    },
+    {
+      "name": "Sonnenhof Freinberg",
+      "ort": "Linz",
+      "plz": "4020",
+      "pflegepaetze": 128
+    },
+    {
+      "name": "Sonnenhof Lenaupark",
+      "ort": "Linz",
+      "plz": "4020",
+      "pflegepaetze": 130
+    },
+    //END LINZ
+
+    //START STEYR
+    {
+      "name": "Alten- und Pflegeheim Tabor",
+      "ort": "Steyr",
+      "plz": "4400",
+      "pflegepaetze": 125
+    },
+    {
+      "name": "Alten- und Pflegeheim Ennsleite",
+      "ort": "Steyr",
+      "plz": "4400",
+      "pflegepaetze": 130
+    },
+    {
+      "name": "Alten- und Pflegeheim Münichholz",
+      "ort": "Steyr",
+      "plz": "4400",
+      "pflegepaetze": 118
+    },
+    //END STEYR
+
+    //START WELS
+     {
+      "name": "Haus Leopold Spitzer",
+      "ort": "Wels",
+      "plz": "4600",
+      "pflegepaetze": 72
+    },
+    {
+      "name": "Haus Neustadt",
+      "ort": "Wels",
+      "plz": "4600",
+      "pflegepaetze": 130
+    },
+    {
+      "name": "Haus Noitzmühle",
+      "ort": "Wels",
+      "plz": "4600",
+      "pflegepaetze": 72
+    },
+    {
+      "name": "Haus Vogelweide-Laahen",
+      "ort": "Wels",
+      "plz": "4600",
+      "pflegepaetze": 128
+    },
+    {
+      "name": "Bruderliebe Wohnen mit Pflege",
+      "ort": "Wels",
+      "plz": "4600",
+      "pflegepaetze": 84
+    },
+    {
+      "name": "Haus für Senioren Wels",
+      "ort": "Wels",
+      "plz": "4600",
+      "pflegepaetze": 76
+    },
+    //END WELS
+
+    //START BRAUNAU
+    {
+      "name": "Bezirksseniorenzentrum Altheim",
+      "ort": "Altheim",
+      "plz": "4950",
+      "pflegepaetze": 99
+    },
+    {
+      "name": "Bezirksseniorenzentrum Braunau "Haus am Rosengarten" ",
+      "ort": "Braunau am Inn",
+      "plz": "5280",
+      "pflegepaetze": 90
+    },
+    {
+      "name": "Bezirksseniorenzentrum Braunau "Haus am Rosengarten" ",
+      "ort": "Braunau",
+      "plz": "5280",
+      "pflegepaetze": 100
+    },
+    {
+      "name": "Bezirksseniorenzentrum Eggelsberg",
+      "ort": "Eggelsberg",
+      "plz": "5142",
+      "pflegepaetze": 80
+    },
+    {
+      "name": "Bezirksseniorenzentrum Mattighofen",
+      "ort": "Mattinghofen",
+      "plz": "5230",
+      "pflegepaetze": 102
+    },
+    {
+      "name": "Haus für Senioren Mauerkirchen",
+      "ort": "Mauerkirchen",
+      "plz": "5270",
+      "pflegepaetze": 80
+    },
+    {
+      "name": "Bezirksseniorenzentrum Ostermiething",
+      "ort": "Ostermiething",
+      "plz": "5121",
+      "pflegepaetze": 100
+    },
+    {
+      "name": "FraDomo Maria Schmolln",
+      "ort": "Maria Schmolln",
+      "plz": "5241",
+      "pflegepaetze": 80
+    },
+    //END BRAUNAU
+
+    //START EFERDING
+    {
+      "name": "Bezirksalten- und Pflegeheim Eferding",
+      "ort": "Eferding",
+      "plz": "4070",
+      "pflegepaetze": 122
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Hartkirchen",
+      "ort": "Hartkirchen",
+      "plz": "4081",
+      "pflegepaetze": 74
+    },
+    //END EFERDING
+
+    //START FREISTADT
+    {
+      "name": "Bezirksseniorenheim Freistadt",
+      "ort": "Freistadt",
+      "plz": "4240",
+      "pflegepaetze": 120
+    },
+    {
+      "name": "Bezirksseniorenheim Lasberg",
+      "ort": "Lasberg",
+      "plz": "4291",
+      "pflegepaetze": 77
+    },
+    {
+      "name": "Bezirksseniorenheim Pregarten",
+      "ort": "Pregarten",
+      "plz": "4230",
+      "pflegepaetze": 78
+    },
+    {
+      "name": "Bezirksseniorenheim Unterweißenbach",
+      "ort": "Unterweißenbach",
+      "plz": "4273",
+      "pflegepaetze": 75
+    },
+    {
+      "name": "FraDomo Rainbach",
+      "ort": "Rainbach",
+      "plz": "4261",
+      "pflegepaetze": 84
+    },
+    {
+      "name": "Haus für Senioren Bad Zell",
+      "ort": "Bad Zell",
+      "plz": "4283",
+      "pflegepaetze": 48
+    },
+    //END FREISTADT
+
+    //START GMUNDEN
+    {
+      "name": "Bezirksseniorenheim Vorchdorf",
+      "ort": "Vorchdorf",
+      "plz": "4655",
+      "pflegepaetze": 84
+    },
+    {
+      "name": "Bezirksseniorenheim Bad Ischl",
+      "ort": "Bad Ischl",
+      "plz": "4820",
+      "pflegepaetze": 122
+    },
+    {
+      "name": "Bezirksseniorenheim Ebensee",
+      "ort": "VorchdorfBad Zell",
+      "plz": "4655",
+      "pflegepaetze": 93
+    },
+    {
+      "name": "Bezirksseniorenheim Laakirchen",
+      "ort": "Laakirchen",
+      "plz": "4663",
+      "pflegepaetze": 96
+    },
+    {
+      "name": "Bezirksseniorenheim Sarsteinerstiftung",
+      "ort": "Bad Ischl",
+      "plz": "4820",
+      "pflegepaetze": 100
+    },
+    {
+      "name": "Bezirksseniorenheim Scharnstein",
+      "ort": "Scharnstein",
+      "plz": "4644",
+      "pflegepaetze": 78
+    },
+    {
+      "name": "Bezirksseniorenheim Weinberghof",
+      "ort": "Gmunden",
+      "plz": "4810",
+      "pflegepaetze": 154
+    },
+    {
+      "name": "Altenwohnheim Altmünster",
+      "ort": "Altmünster",
+      "plz": "4813",
+      "pflegepaetze": 92
+    },
+    {
+      "name": "Brigittaheim Gosau",
+      "ort": "Gosau",
+      "plz": "4824",
+      "pflegepaetze": 38
+    },
+    {
+      "name": "Evangelisches Alten- und Pflegeheim Bad Goisern",
+      "ort": "Bad Goisern",
+      "plz": "4822",
+      "pflegepaetze": 96
+    },
+    {
+      "name": "Haus St. Josef Gmunden",
+      "ort": "Gmunden",
+      "plz": "4810",
+      "pflegepaetze": 94
+    },
+    //END GMUNDEN
+
+    //START GRIESKIRCHEN
+    {
+      "name": "Bezirksalten- und Pflegeheim Gaspoltshofen",
+      "ort": "Gaspoltshofen",
+      "plz": "4673",
+      "pflegepaetze": 116
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Grieskirchen",
+      "ort": "Grieskirchen",
+      "plz": "4710",
+      "pflegepaetze": 94
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Kallham",
+      "ort": "Kallham",
+      "plz": "4720",
+      "pflegepaetze": 84
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Peuerbach",
+      "ort": "Peuerbach",
+      "plz": "4722",
+      "pflegepaetze": 100
+    },
+    {
+      "name": "Alten- und Pflegeheim der Marktgemeinde Waizenkirchen",
+      "ort": "Waizenkirchen",
+      "plz": "4730",
+      "pflegepaetze": 84
+    },
+    {
+      "name": "FraDomo Gallspach",
+      "ort": "Gallspach",
+      "plz": "4713",
+      "pflegepaetze": 87
+    },
+    {
+      "name": "St. Raphael Wohnen mit Pflege",
+      "ort": "Bad Schallerbach",
+      "plz": "4701",
+      "pflegepaetze": 78
+    },
+    //END GRIESKIRCHEN
+
+    //START KIRCHDORF
+    {
+      "name": "Bezirksalten- und Pflegeheim Kirchdorf",
+      "ort": "Kirchdorf/Krems",
+      "plz": "4560",
+      "pflegepaetze": 123
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Kremsmünster",
+      "ort": "Kremsmünster",
+      "plz": "4550",
+      "pflegepaetze": 78
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Micheldorf",
+      "ort": "Micheldorf",
+      "plz": "4563",
+      "pflegepaetze": 98
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Windischgarsten",
+      "ort": "Windischgarsten",
+      "plz": "4580",
+      "pflegepaetze": 100
+    },
+    {
+      "name": "Alten- und Pflegeheim Grünburg",
+      "ort": "Grünburg",
+      "plz": "4594",
+      "pflegepaetze": 71
+    },
+    {
+      "name": "Alten- und Pflegeheim Ried im Traunkreis",
+      "ort": "Ried im Traunkreis",
+      "plz": "4551",
+      "pflegepaetze": 80
+    },
+    //END KIRCHDORF
+
+    //START LINZ-LAND
+    {
+      "name": "Zentrum Betreuung und Pflege Enns",
+      "ort": "Enns",
+      "plz": "4470",
+      "pflegepaetze": 138
+    },
+    {
+      "name": "Zentrum Betreuung und Pflege Haid",
+      "ort": "Haid",
+      "plz": "4053",
+      "pflegepaetze": 116
+    },
+    {
+      "name": "Zentrum Betreuung und Pflege Hart",
+      "ort": "Leonding",
+      "plz": "4060",
+      "pflegepaetze": 95
+    },
+    {
+      "name": "Zentrum Betreuung und Pflege Hörsching",
+      "ort": "Hörsching",
+      "plz": "4063",
+      "pflegepaetze": 99
+    },
+    {
+      "name": "Zentrum Betreuung und Pflege Leonding",
+      "ort": "Leonding",
+      "plz": "4060",
+      "pflegepaetze": 150
+    },
+    {
+      "name": "Zentrum Betreuung und Pflege Neuhofen an der Krems",
+      "ort": "Neuhofen/Krems",
+      "plz": "4501",
+      "pflegepaetze": 101
+    },
+    {
+      "name": "Zentrum Betreuung und Pflege St. Dionysen",
+      "ort": "Traun",
+      "plz": "4050",
+      "pflegepaetze": 125
+    },
+    {
+      "name": "Zentrum Betreuung und Pflege St. Florian",
+      "ort": "St. Florian",
+      "plz": "4490",
+      "pflegepaetze": 90
+    },
+    {
+      "name": "Zentrum Betreuung und Pflege Traun",
+      "ort": "Traun",
+      "plz": "4050",
+      "pflegepaetze": 128
+    },
+    {
+      "name": "Seniorenwohn- und Pflegeheim Netzwerk Pasching",
+      "ort": "Pasching",
+      "plz": "4061",
+      "pflegepaetze": 67
+    },
+    //END LINZ-LAND
+
+    //START PERG
+    {
+      "name": "SENIORium Bad Kreuzen",
+      "ort": "Bad Kreuzen",
+      "plz": "4362",
+      "pflegepaetze": 98
+    },
+    {
+      "name": "SENIORium Baumgartenberg",
+      "ort": "Baumgartenberg",
+      "plz": "4342",
+      "pflegepaetze": 82
+    },
+    {
+      "name": "SSENIORium Grein",
+      "ort": "PaschGreining",
+      "plz": "4360",
+      "pflegepaetze": 81
+    },
+    {
+      "name": "SENIORium Mauthausen",
+      "ort": "Mauthausen",
+      "plz": "4310",
+      "pflegepaetze": 127
+    },
+    {
+      "name": "SENIORium Perg",
+      "ort": "Perg",
+      "plz": "4320",
+      "pflegepaetze": 102
+    },
+    {
+      "name": "SENIORium Schwertberg",
+      "ort": "Schwertberg",
+      "plz": "4311",
+      "pflegepaetze": 39
+    },
+    {
+      "name": "Seniorenzentrum Agevita St. Georgen an der Gusen",
+      "ort": "St. Georgen/Gusen",
+      "plz": "4222",
+      "pflegepaetze": 83
+    },
+    //END PERG
+
+    //START RIED IM INNKREIS
+    {
+      "name": "Pflegeheim Eberschwang",
+      "ort": "Eberschwang",
+      "plz": "4906",
+      "pflegepaetze": 84
+    },
+    {
+      "name": "Pflegeheim Obernberg am Inn",
+      "ort": "Obernberg am Inn",
+      "plz": "4982",
+      "pflegepaetze": 101
+    },
+    {
+      "name": "Pflegeheim Ried im Innkreis Haus 1",
+      "ort": "Ried im Innkreis",
+      "plz": "4910",
+      "pflegepaetze": 137
+    },
+    {
+      "name": "Pflegeheim Ried im Innkreis Haus 2",
+      "ort": "Ried im Innkreis",
+      "plz": "4910",
+      "pflegepaetze": 119
+    },
+    {
+      "name": "Seniorenwohnheim Mehrnbach",
+      "ort": "Mehrnbach",
+      "plz": "4941",
+      "pflegepaetze": 79
+    },
+    //END RIED IM INNKREIS
+
+    //START ROHRBACH
+    {
+      "name": "Bezirksalten- und Pflegeheim Aigen-Schlägl",
+      "ort": "Aigen i. M.",
+      "plz": "4160",
+      "pflegepaetze": 60
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Haslach",
+      "ort": "Haslach",
+      "plz": "4170",
+      "pflegepaetze": 100
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Kleinzell im Mühlkreis",
+      "ort": "Kleinzell i. M.",
+      "plz": "4115",
+      "pflegepaetze": 98
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Lembach",
+      "ort": "Lembach",
+      "plz": "4132",
+      "pflegepaetze": 113
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Rohrbach-Berg",
+      "ort": "Rohrbach-Berg",
+      "plz": "4150",
+      "pflegepaetze": 90
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Ulrichsberg",
+      "ort": "Ulrichsberg",
+      "plz": "4161",
+      "pflegepaetze": 73
+    },
+    //END ROHRBACH
+
+    //START SCHÄRDING
+    {
+      "name": "Bezirksalten- und Pflegeheim Schärding Zentrum Tummelplatz",
+      "ort": "Schärding/Inn",
+      "plz": "4780",
+      "pflegepaetze": 122
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Schärding",
+      "ort": "Schärding/Inn,",
+      "plz": "4780",
+      "pflegepaetze": 90
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Andorf",
+      "ort": "Andorf",
+      "plz": "4770",
+      "pflegepaetze": 69
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Esternberg",
+      "ort": "Esternberg",
+      "plz": "4090",
+      "pflegepaetze": 125
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Zell an der Pram",
+      "ort": "Zell an der Pram",
+      "plz": "4755",
+      "pflegepaetze": 63
+    },
+    {
+      "name": "Seniorenwohnhaus St. Bernhard",
+      "ort": "Engelhartszell",
+      "plz": "4090",
+      "pflegepaetze": 30
+    },
+    //END SCHÄRDING
+
+    //START STEYR-LAND
+    {
+      "name": "Bezirksseniorenwohnheim Bad Hall",
+      "ort": "Bad Hall",
+      "plz": "4540",
+      "pflegepaetze": 123
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Garsten",
+      "ort": "Garsten",
+      "plz": "4451",
+      "pflegepaetze": 61
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Sierning",
+      "ort": "Sierning",
+      "plz": "4522",
+      "pflegepaetze": 62
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Ternberg",
+      "ort": "Ternberg",
+      "plz": "4452",
+      "pflegepaetze": 64
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Weyer",
+      "ort": "Weyer",
+      "plz": "3335",
+      "pflegepaetze": 90
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Wolfern",
+      "ort": "Wolfern",
+      "plz": "4493",
+      "pflegepaetze": 64
+    },
+    {
+      "name": "Seniorenwohnhaus Schloss Hall",
+      "ort": "Bad Hall",
+      "plz": "4540",
+      "pflegepaetze": 108
+    },
+    {
+      "name": "St. Josef - Wohnen mit Pflege Sierning",
+      "ort": "Sierning",
+      "plz": "4522",
+      "pflegepaetze": 64
+    },
+    //END STEYR-LAND
+
+    //START URFAHR-UMGEBUNG
+    {
+      "name": "Bezirksseniorenheim Bad Leonfelden",
+      "ort": "Bad Leonfelden",
+      "plz": "4190",
+      "pflegepaetze": 93
+    },
+    {
+      "name": "Bezirksseniorenheim Engerwitzdorf",
+      "ort": "Engerwitzdorf",
+      "plz": "4209",
+      "pflegepaetze": 117
+    },
+    {
+      "name": "Bezirksseniorenhaus Gramastetten",
+      "ort": "Gramastetten",
+      "plz": "4201",
+      "pflegepaetze": 96
+    },
+    {
+      "name": "Bezirksseniorenhaus Hellmonsödt",
+      "ort": "Hellmonsödt",
+      "plz": "4202",
+      "pflegepaetze": 96
+    },
+    {
+      "name": "Bezirksseniorenheim Walding",
+      "ort": "Walding",
+      "plz": "4111",
+      "pflegepaetze": 70
+    },
+    {
+      "name": "Haus Abendfrieden",
+      "ort": "Gallneukirchen",
+      "plz": "4210",
+      "pflegepaetze": 23
+    },
+    {
+      "name": "Haus Elisabeth",
+      "ort": "Gallneukirchen",
+      "plz": "4210",
+      "pflegepaetze": 40
+    },
+    {
+      "name": "FraDomo Feldkirchen an der Donau",
+      "ort": "Feldkirchen/Donau",
+      "plz": "4101",
+      "pflegepaetze": 90
+    },
+    //END URFAHR-UMGEBUNG
+
+
+    //START VÖCKLABRUCK
+    {
+      "name": "Bezirksalten- und Pflegeheim Attnang-Puchheim",
+      "ort": "Attnang-Puchheim",
+      "plz": "4800",
+      "pflegepaetze": 224
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Neukirchen an der Vöckla",
+      "ort": "Neukirchen a.d. Vöckla",
+      "plz": "4872",
+      "pflegepaetze": 48
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Pfaffing",
+      "ort": "Pfaffing",
+      "plz": "4870",
+      "pflegepaetze": 50
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim St. Georgen im Attergau",
+      "ort": "St. Georgen i.A.",
+      "plz": "4880",
+      "pflegepaetze": 62
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Vöcklamarkt",
+      "ort": "Vöcklamarkt",
+      "plz": "4870",
+      "pflegepaetze": 61
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Frankenmarkt",
+      "ort": "Frankenmarkt",
+      "plz": "4890",
+      "pflegepaetze": 81
+    },
+    {
+      "name": "Altenheim der Marktgemeinde Frankenburg",
+      "ort": "Frankenburg",
+      "plz": "4873",
+      "pflegepaetze": 78
+    },
+    {
+      "name": "Alten- und Pflegeheim der Marktgemeinde Lenzing",
+      "ort": "Lenzing",
+      "plz": "4860",
+      "pflegepaetze": 96
+    },
+    {
+      "name": "Seniorenwohnheim der Marktgemeinde Mondsee",
+      "ort": "Mondsee",
+      "plz": "5310",
+      "pflegepaetze": 67
+    },
+    {
+      "name": "Bertha von Suttner-Haus Schwanenstadt",
+      "ort": "Schwanenstadt",
+      "plz": "4690",
+      "pflegepaetze": 81
+    },
+    {
+      "name": "Seniorenheim der Marktgemeinde Timelkam",
+      "ort": "Timelkam",
+      "plz": "4850",
+      "pflegepaetze": 80
+    },
+    {
+      "name": "Seniorenheim der Stadt Vöcklabruck",
+      "ort": "Vöcklabruck",
+      "plz": "4840",
+      "pflegepaetze": 99
+    },
+    {
+      "name": "FraDomo Vöcklabruck",
+      "ort": "Vöcklabruck",
+      "plz": "4840",
+      "pflegepaetze": 120
+    },
+    {
+      "name": "FraDomo Ottnang",
+      "ort": "Ottnang am Hausruck",
+      "plz": "4901",
+      "pflegepaetze": 72
+    },
+    //END VÖCKLABRUCK
+
+    //START WELS-LAND
+    {
+      "name": "Bezirksalten- und Pflegeheim Lambach",
+      "ort": "Lambach",
+      "plz": "4650",
+      "pflegepaetze": 125
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Marchtrenk",
+      "ort": "Marchtrenk",
+      "plz": "4614",
+      "pflegepaetze": 126
+    },
+    {
+      "name": "Bezirksalten- und Pflegeheim Thalheim",
+      "ort": "Thalheim",
+      "plz": "4600",
+      "pflegepaetze": 102
+    },
+    {
+      "name": "Seniorenwohn- und Pflegeheim Gunskirchen",
+      "ort": "Gunskirchen",
+      "plz": "4623",
+      "pflegepaetze": 76
+    },
+    {
+      "name": "Sozialzentrum Sonnleiten",
+      "ort": "Eberstalzell",
+      "plz": "4653",
+      "pflegepaetze": 68
+    },
+    {
+      "name": "Sozialzentrum Kloster Nazareth",
+      "ort": "Stadl-Paura",
+      "plz": "4651",
+      "pflegepaetze": 80
+    }
+    //END WELS-LAND
+  ]
+}
