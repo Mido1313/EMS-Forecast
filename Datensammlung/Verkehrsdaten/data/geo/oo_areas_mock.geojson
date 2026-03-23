@@ -1,0 +1,545 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 1,
+        "areaName": "Linz + Urfahr",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.35,
+              48.27
+            ],
+            [
+              13.647,
+              48.27
+            ],
+            [
+              13.647,
+              48.504
+            ],
+            [
+              13.35,
+              48.504
+            ],
+            [
+              13.35,
+              48.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 2,
+        "areaName": "Wels",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.68,
+              48.27
+            ],
+            [
+              13.977,
+              48.27
+            ],
+            [
+              13.977,
+              48.504
+            ],
+            [
+              13.68,
+              48.504
+            ],
+            [
+              13.68,
+              48.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 3,
+        "areaName": "Rohrbach",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.01,
+              48.27
+            ],
+            [
+              14.307,
+              48.27
+            ],
+            [
+              14.307,
+              48.504
+            ],
+            [
+              14.01,
+              48.504
+            ],
+            [
+              14.01,
+              48.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 4,
+        "areaName": "Freistadt",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.34,
+              48.27
+            ],
+            [
+              14.637,
+              48.27
+            ],
+            [
+              14.637,
+              48.504
+            ],
+            [
+              14.34,
+              48.504
+            ],
+            [
+              14.34,
+              48.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 5,
+        "areaName": "Perg",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.67,
+              48.27
+            ],
+            [
+              14.967,
+              48.27
+            ],
+            [
+              14.967,
+              48.504
+            ],
+            [
+              14.67,
+              48.504
+            ],
+            [
+              14.67,
+              48.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 6,
+        "areaName": "Wels-Land Nord + Linz-Land",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.35,
+              48.01
+            ],
+            [
+              13.647,
+              48.01
+            ],
+            [
+              13.647,
+              48.244
+            ],
+            [
+              13.35,
+              48.244
+            ],
+            [
+              13.35,
+              48.01
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 7,
+        "areaName": "Steyr + Steyr-Land Nord + Kirchdorf Nord",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.68,
+              48.01
+            ],
+            [
+              13.977,
+              48.01
+            ],
+            [
+              13.977,
+              48.244
+            ],
+            [
+              13.68,
+              48.244
+            ],
+            [
+              13.68,
+              48.01
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 8,
+        "areaName": "Kirchdorf Süd + Steyr-Land Süd",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.01,
+              48.01
+            ],
+            [
+              14.307,
+              48.01
+            ],
+            [
+              14.307,
+              48.244
+            ],
+            [
+              14.01,
+              48.244
+            ],
+            [
+              14.01,
+              48.01
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 9,
+        "areaName": "Gmunden Nord + Vöcklabruck Süd + Wels-Land Süd",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.34,
+              48.01
+            ],
+            [
+              14.637,
+              48.01
+            ],
+            [
+              14.637,
+              48.244
+            ],
+            [
+              14.34,
+              48.244
+            ],
+            [
+              14.34,
+              48.01
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 10,
+        "areaName": "Gmunden Süd",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.67,
+              48.01
+            ],
+            [
+              14.967,
+              48.01
+            ],
+            [
+              14.967,
+              48.244
+            ],
+            [
+              14.67,
+              48.244
+            ],
+            [
+              14.67,
+              48.01
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 11,
+        "areaName": "Ried + Vöcklabruck Nord",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.35,
+              47.75
+            ],
+            [
+              13.647,
+              47.75
+            ],
+            [
+              13.647,
+              47.984
+            ],
+            [
+              13.35,
+              47.984
+            ],
+            [
+              13.35,
+              47.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 12,
+        "areaName": "Braunau",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.68,
+              47.75
+            ],
+            [
+              13.977,
+              47.75
+            ],
+            [
+              13.977,
+              47.984
+            ],
+            [
+              13.68,
+              47.984
+            ],
+            [
+              13.68,
+              47.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 13,
+        "areaName": "Schärding",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.01,
+              47.75
+            ],
+            [
+              14.307,
+              47.75
+            ],
+            [
+              14.307,
+              47.984
+            ],
+            [
+              14.01,
+              47.984
+            ],
+            [
+              14.01,
+              47.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 14,
+        "areaName": "Grieskirchen + Eferding",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.34,
+              47.75
+            ],
+            [
+              14.637,
+              47.75
+            ],
+            [
+              14.637,
+              47.984
+            ],
+            [
+              14.34,
+              47.984
+            ],
+            [
+              14.34,
+              47.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "areaId": 15,
+        "areaName": "Urfahr-Umgebung",
+        "geometryType": "MOCK",
+        "note": "Mock geometry for prototype only. Replace with real OOE boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.67,
+              47.75
+            ],
+            [
+              14.967,
+              47.75
+            ],
+            [
+              14.967,
+              47.984
+            ],
+            [
+              14.67,
+              47.984
+            ],
+            [
+              14.67,
+              47.75
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
