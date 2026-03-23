@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rettungsdienst-Risiko Oberösterreich</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <h1>Vorhersagesystem Einsatzwahrscheinlichkeiten</h1>
+          <p>Rettungsdienst Oberösterreich · Prototyp mit transparenter Modelllogik</p>
+        </div>
+        <div class="topbar-actions">
+          <button id="recalculateButton">Neu berechnen</button>
+          <span id="lastUpdate">Stand: -</span>
+        </div>
+      </header>
+
+      <section class="legend-row">
+        <span class="legend-title">Risikostufen</span>
+        <div class="legend-items">
+          <span><i style="background:#1b5e20"></i>1 Sehr gering</span>
+          <span><i style="background:#7cb342"></i>2 Gering</span>
+          <span><i style="background:#fdd835"></i>3 Mittel</span>
+          <span><i style="background:#fb8c00"></i>4 Hoch</span>
+          <span><i style="background:#d32f2f"></i>5 Kritisch</span>
+        </div>
+      </section>
+
+      <main class="layout">
+        <section class="left-panel">
+          <div id="viewModeHint" class="view-mode"></div>
+          <div id="mapContainer" class="map-container hidden"></div>
+          <div id="chartContainer" class="chart-container hidden">
+            <canvas id="riskChart"></canvas>
+          </div>
+        </section>
+        <aside class="detail-panel" id="detailPanel">
+          <h2>Gebietsdetails</h2>
+          <p class="detail-placeholder">Klicke auf ein Gebiet in der Karte oder auf einen Balken im Diagramm.</p>
+        </aside>
+      </main>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

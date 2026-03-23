@@ -12,18 +12,18 @@
 | 1  | Linz + Urfahr                                   | Linz              | 4020            |
 | 2  | Wels                                            | Wels              | 4600            |
 | 3  | Rohrbach                                        | Rohrbach          | 4150            |
-| 4  | Freistadt                              | Freistadt         | 4240            |
+| 4  | Freistadt                                       | Freistadt         | 4240            |
 | 5  | Perg                                            | Perg              | 4320            |
 | 6  | Wels-Land Nord + Linz-Land                      | Leonding          | 4060            |
 | 7  | Steyr + Steyr-Land Nord + Kirchdorf Nord        | Steyr             | 4400            |
 | 8  | Kirchdorf Süd + Steyr-Land Süd                  | Kirchdorf         | 4560            |
-| 9  | Gmunden Nord + Vöcklabruck Süd + Wels-Land Süd | Regau             | 4840            |
+| 9  | Gmunden Nord + Vöcklabruck Süd + Wels-Land Süd  | Regau             | 4840            |
 | 10 | Gmunden Süd                                     | Bad Ischl         | 4820            |
 | 11 | Ried + Vöcklabruck Nord                         | Ried              | 4910            |
 | 12 | Braunau                                         | Braunau           | 5280            |
 | 13 | Schärding                                       | Schärding         | 4780            |
 | 14 | Grieskirchen + Eferding                         | Grieskirchen      | 4710            |
-| 15 | Urfahr-Umgebung                         | Bad Leondfelden      | 4190            |
+| 15 | Urfahr-Umgebung                                 | Bad Leondfelden   | 4190            |
 
 
 ## Aufgabenbereiche
