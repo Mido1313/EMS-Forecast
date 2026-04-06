@@ -14,3 +14,4 @@ Namensvorschläge:
 - **23.03.2026** API Anbindung von Wetterdaten; *Quellen: geosphere, OpenWeather* (Lukas)
 - **23.03.2026** API Anbindung und Visualisierung; *Quellen: EVIS* (Lukas)
 - **06.04.2026:** Daten sammeln über **Events** und **Veranstaltungen** (inkl. Erweiterung der Daten für 2027); *Quellen: oesterreich.gv.at* (Merjem)
+- **06.04.2026:** Daten sammeln über **Ausflugziele Natur**;(Merjem)
