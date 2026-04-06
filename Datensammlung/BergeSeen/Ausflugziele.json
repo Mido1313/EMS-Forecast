@@ -1,0 +1,611 @@
+{
+  "ausflugsziele": [
+    //Braunau
+    {
+      "name": "Höllerersee",
+      "ort": "St. Pantaleon",
+      "plz": "5120",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Holzöstersee",
+      "ort": "Franking",
+      "plz": "5131",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Heratinger See",
+      "ort": "Eggelsberg",
+      "plz": "5142",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Ibmer Moor",
+      "ort": "Eggelsberg",
+      "plz": "5142",
+      "art": "Naturgebiet",
+      "risikostufe": 2,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Inn",
+      "ort": "Braunau am Inn",
+      "plz": "5280",
+      "art": "Fluss",
+      "risikostufe": 5,
+      "saison": ["Sommer"]
+    },
+    //Eferding
+    {
+      "name": "Donau",
+      "ort": "Eferding / Aschach an der Donau",
+      "plz": "4082",
+      "art": "Fluss",
+      "risikostufe": 5,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Donau-Auen",
+      "ort": "Aschach an der Donau",
+      "plz": "4082",
+      "art": "Naturgebiet",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Badesee Feldkirchen",
+      "ort": "Feldkirchen an der Donau",
+      "plz": "4101",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    //Freistadt
+    {
+      "name": "Braunberg",
+      "ort": "St. Oswald bei Freistadt",
+      "plz": "4271",
+      "art": "Berg",
+      "risikostufe": 3,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Jaunitz (Fluss)",
+      "ort": "Freistadt",
+      "plz": "4240",
+      "art": "Fluss",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Feldaist",
+      "ort": "Kefermarkt / Freistadt",
+      "plz": "4292",
+      "art": "Fluss",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Hirschbach Teiche",
+      "ort": "Hirschbach im Mühlkreis",
+      "plz": "4242",
+      "art": "See",
+      "risikostufe": 2,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Wälder Mühlviertel (Freistadt)",
+      "ort": "Freistadt Umgebung",
+      "plz": "4240",
+      "art": "Naturgebiet",
+      "risikostufe": 2,
+      "saison": ["Sommer", "Winter"]
+    },
+    //Gmunden
+    {
+      "name": "Traunstein",
+      "ort": "Gmunden",
+      "plz": "4810",
+      "art": "Berg",
+      "risikostufe": 5,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Dachstein Krippenstein",
+      "ort": "Obertraun",
+      "plz": "4831",
+      "art": "Berg",
+      "risikostufe": 5,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Feuerkogel",
+      "ort": "Ebensee",
+      "plz": "4802",
+      "art": "Berg",
+      "risikostufe": 4,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Traunsee",
+      "ort": "Gmunden",
+      "plz": "4810",
+      "art": "See",
+      "risikostufe": 4,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Attersee (Teil Bezirk)",
+      "ort": "Steinbach am Attersee",
+      "plz": "4853",
+      "art": "See",
+      "risikostufe": 4,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Offensee",
+      "ort": "Ebensee",
+      "plz": "4802",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Almtal",
+      "ort": "Grünau im Almtal",
+      "plz": "4645",
+      "art": "Naturgebiet",
+      "risikostufe": 3,
+      "saison": ["Sommer", "Winter"]
+    },
+    //Grieskirchen
+    {
+      "name": "Trattnach",
+      "ort": "Grieskirchen",
+      "plz": "4710",
+      "art": "Fluss",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Aschach (Fluss)",
+      "ort": "Gaspoltshofen",
+      "plz": "4673",
+      "art": "Fluss",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Badesee Gallspach",
+      "ort": "Gallspach",
+      "plz": "4713",
+      "art": "See",
+      "risikostufe": 2,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Wälder Hausruckviertel (Grieskirchen)",
+      "ort": "Grieskirchen Umgebung",
+      "plz": "4710",
+      "art": "Naturgebiet",
+      "risikostufe": 2,
+      "saison": ["Sommer", "Winter"]
+    },
+    //Kirchdorf
+    {
+      "name": "Warscheneck",
+      "ort": "Spital am Pyhrn",
+      "plz": "4582",
+      "art": "Berg",
+      "risikostufe": 5,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Großer Pyhrgas",
+      "ort": "Spital am Pyhrn",
+      "plz": "4582",
+      "art": "Berg",
+      "risikostufe": 5,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Hinterstoder (Skigebiet / Berge)",
+      "ort": "Hinterstoder",
+      "plz": "4573",
+      "art": "Berg",
+      "risikostufe": 5,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Gleinkersee",
+      "ort": "Roßleithen",
+      "plz": "4575",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Stausee Klaus",
+      "ort": "Klaus an der Pyhrnbahn",
+      "plz": "4564",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Steyr (Fluss)",
+      "ort": "Klaus / Hinterstoder",
+      "plz": "4564",
+      "art": "Fluss",
+      "risikostufe": 4,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Nationalpark Kalkalpen",
+      "ort": "Reichraming / Windischgarsten",
+      "plz": "4592",
+      "art": "Naturgebiet",
+      "risikostufe": 4,
+      "saison": ["Sommer", "Winter"]
+    },
+    //Linz-Land
+    {
+      "name": "Donau (Linz-Land Abschnitt)",
+      "ort": "Ansfelden / Puchenau",
+      "plz": "4052",
+      "art": "Fluss",
+      "risikostufe": 5,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Traun (Fluss)",
+      "ort": "Traun",
+      "plz": "4050",
+      "art": "Fluss",
+      "risikostufe": 4,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Pichlinger See",
+      "ort": "Linz",
+      "plz": "4030",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Oedter See",
+      "ort": "Traun",
+      "plz": "4050",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Weikerlsee",
+      "ort": "Linz",
+      "plz": "4030",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Traun-Auen",
+      "ort": "Traun / Ansfelden",
+      "plz": "4050",
+      "art": "Naturgebiet",
+      "risikostufe": 2,
+      "saison": ["Sommer", "Winter"]
+    },
+    //Perg
+    {
+      "name": "Donau (Perg Abschnitt)",
+      "ort": "Grein",
+      "plz": "4360",
+      "art": "Fluss",
+      "risikostufe": 5,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Naarn (Fluss)",
+      "ort": "Naarn im Machlande",
+      "plz": "4331",
+      "art": "Fluss",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Aist (Fluss)",
+      "ort": "Schwertberg",
+      "plz": "4311",
+      "art": "Fluss",
+      "risikostufe": 4,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Badesee Mitterkirchen",
+      "ort": "Mitterkirchen im Machland",
+      "plz": "4343",
+      "art": "See",
+      "risikostufe": 2,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Strudengau (Donautal)",
+      "ort": "Grein",
+      "plz": "4360",
+      "art": "Naturgebiet",
+      "risikostufe": 4,
+      "saison": ["Sommer", "Winter"]
+    },
+    //Ried
+    {
+      "name": "Antiesen (Fluss)",
+      "ort": "Ried im Innkreis",
+      "plz": "4910",
+      "art": "Fluss",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Oberach (Fluss)",
+      "ort": "Aurolzmünster",
+      "plz": "4971",
+      "art": "Fluss",
+      "risikostufe": 2,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Badesee Pramet",
+      "ort": "Pramet",
+      "plz": "4925",
+      "art": "See",
+      "risikostufe": 2,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Wälder Innviertel",
+      "ort": "Ried Umgebung",
+      "plz": "4910",
+      "art": "Naturgebiet",
+      "risikostufe": 2,
+      "saison": ["Sommer", "Winter"]
+    },
+    //Rohrbach
+    {
+      "name": "Große Mühl",
+      "ort": "Aigen-Schlägl",
+      "plz": "4160",
+      "art": "Fluss",
+      "risikostufe": 4,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Kleine Mühl",
+      "ort": "Haslach an der Mühl",
+      "plz": "4170",
+      "art": "Fluss",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Moldaustausee",
+      "ort": "Ulrichsberg",
+      "plz": "4161",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Böhmerwald (Rohrbach Abschnitt)",
+      "ort": "Ulrichsberg / Aigen-Schlägl",
+      "plz": "4161",
+      "art": "Naturgebiet",
+      "risikostufe": 3,
+      "saison": ["Sommer", "Winter"]
+    },
+    //Schärding
+    {
+      "name": "Inn (Schärding Abschnitt)",
+      "ort": "Schärding",
+      "plz": "4780",
+      "art": "Fluss",
+      "risikostufe": 5,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Pram (Fluss)",
+      "ort": "Schärding",
+      "plz": "4780",
+      "art": "Fluss",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Sauwald (Waldgebiet)",
+      "ort": "Engelhartszell",
+      "plz": "4090",
+      "art": "Naturgebiet",
+      "risikostufe": 3,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Badeseen Umgebung Schärding",
+      "ort": "St. Florian am Inn",
+      "plz": "4782",
+      "art": "See",
+      "risikostufe": 2,
+      "saison": ["Sommer"]
+    },
+    //Steyr-Land
+    {
+      "name": "Steyr (Fluss)",
+      "ort": "Sierning",
+      "plz": "4522",
+      "art": "Fluss",
+      "risikostufe": 4,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Enns (Fluss)",
+      "ort": "Ternberg",
+      "plz": "4452",
+      "art": "Fluss",
+      "risikostufe": 4,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Damberg",
+      "ort": "Steyr",
+      "plz": "4400",
+      "art": "Berg",
+      "risikostufe": 2,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Steyrtal",
+      "ort": "Grünburg",
+      "plz": "4595",
+      "art": "Naturgebiet",
+      "risikostufe": 3,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Badeseen Umgebung Steyr-Land",
+      "ort": "Sierning / Umgebung",
+      "plz": "4522",
+      "art": "See",
+      "risikostufe": 2,
+      "saison": ["Sommer"]
+    },
+    //Urfahr-Umgebung
+    {
+      "name": "Donau (Urfahr-Umgebung Abschnitt)",
+      "ort": "Ottensheim",
+      "plz": "4100",
+      "art": "Fluss",
+      "risikostufe": 5,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Große Rodl",
+      "ort": "Bad Leonfelden",
+      "plz": "4190",
+      "art": "Fluss",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Pleschinger See",
+      "ort": "Steyregg",
+      "plz": "4221",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Badeseen Feldkirchen",
+      "ort": "Feldkirchen an der Donau",
+      "plz": "4101",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Mühlviertler Wälder (Urfahr-Umgebung)",
+      "ort": "Bad Leonfelden / Umgebung",
+      "plz": "4190",
+      "art": "Naturgebiet",
+      "risikostufe": 2,
+      "saison": ["Sommer", "Winter"]
+    },
+    //Vöcklabruck
+    {
+      "name": "Attersee",
+      "ort": "Seewalchen am Attersee",
+      "plz": "4863",
+      "art": "See",
+      "risikostufe": 4,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Mondsee (Teil Bezirk)",
+      "ort": "Mondsee",
+      "plz": "5310",
+      "art": "See",
+      "risikostufe": 4,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Hongar",
+      "ort": "Aurach am Hongar",
+      "plz": "4861",
+      "art": "Berg",
+      "risikostufe": 3,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Attersee-Uferbereich",
+      "ort": "Steinbach am Attersee",
+      "plz": "4853",
+      "art": "Naturgebiet",
+      "risikostufe": 3,
+      "saison": ["Sommer", "Winter"]
+    },
+    {
+      "name": "Ager (Fluss)",
+      "ort": "Vöcklabruck",
+      "plz": "4840",
+      "art": "Fluss",
+      "risikostufe": 4,
+      "saison": ["Sommer"]
+    },
+    //Wels-Land
+    {
+      "name": "Traun (Fluss)",
+      "ort": "Marchtrenk",
+      "plz": "4614",
+      "art": "Fluss",
+      "risikostufe": 4,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Innbach",
+      "ort": "Buchkirchen",
+      "plz": "4611",
+      "art": "Fluss",
+      "risikostufe": 2,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Badesee Marchtrenk",
+      "ort": "Marchtrenk",
+      "plz": "4614",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Badeseen Umgebung Thalheim",
+      "ort": "Thalheim bei Wels",
+      "plz": "4600",
+      "art": "See",
+      "risikostufe": 3,
+      "saison": ["Sommer"]
+    },
+    {
+      "name": "Wälder Wels-Land",
+      "ort": "Wels-Land Umgebung",
+      "plz": "4600",
+      "art": "Naturgebiet",
+      "risikostufe": 2,
+      "saison": ["Sommer", "Winter"]
+    }
+  ]
+}
