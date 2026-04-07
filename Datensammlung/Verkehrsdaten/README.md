@@ -59,6 +59,8 @@ data/
     generate_seed_data.py
 docs/
   technical_documentation.md
+gebiets_geojson.json
+gebiets_mapping.json
 README.md
 ```
 
@@ -178,6 +180,10 @@ Die Logik bleibt in den Services isoliert:
 
 Fuer echte Gebietsgeometrien:
 - `AREA_GEOJSON_PATH` auf ein reales OOE-GeoJSON setzen.
+
+Standardverhalten:
+- Wenn `gebiets_geojson.json` im Projektroot liegt, wird diese Datei automatisch bevorzugt.
+- `gebiets_mapping.json` im Projektroot wird direkt zur `iso/name -> areaId`-Zuordnung verwendet.
 
 ## Bezug zu `PLZ_Liste.xlsx`
 

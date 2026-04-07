@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WetterdatenImporter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7235179f0f03407797c194488a60416732d7d3d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02832a481fd079babb27c1d7390bbbac6e5b4942")]
 [assembly: System.Reflection.AssemblyProductAttribute("WetterdatenImporter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WetterdatenImporter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

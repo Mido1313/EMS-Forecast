@@ -174,3 +174,388 @@
 2026-03-23 09:49:09 +01:00 [Information] WetterdatenImporter.Services.ImportService: Gebiet 14: beobachtete Daten von 03/21/2026 verwendet (Rueckfall aktiv).
 2026-03-23 09:49:10 +01:00 [Information] WetterdatenImporter.Services.ImportService: Gebiet 15: beobachtete Daten von 03/21/2026 verwendet (Rueckfall aktiv).
 2026-03-23 09:49:10 +01:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 0, uebersprungen: 45, Fehler: 0
+2026-03-24 10:57:28 +01:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-03-24 10:57:28 +01:00 [Information] Main: Starte Import fuer 03/24/2026.
+2026-03-24 10:57:34 +01:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 45, uebersprungen: 0, Fehler: 0
+2026-03-30 19:50:40 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-03-30 19:50:40 +02:00 [Information] Main: Starte Import fuer 03/30/2026.
+2026-03-30 19:50:46 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 45, uebersprungen: 0, Fehler: 0
+2026-03-30 19:54:23 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-03-30 19:54:23 +02:00 [Information] Main: Starte Import fuer 03/30/2026.
+2026-03-30 19:54:28 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 0, uebersprungen: 45, Fehler: 0
+2026-03-31 14:05:59 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-03-31 14:05:59 +02:00 [Information] Main: Starte Import fuer 03/31/2026.
+2026-03-31 14:06:00 +02:00 [Warning] WetterdatenImporter.Services.ResilientHttpClient: HTTP Fehler bei /v1/timeseries/historical/spartacus-v2-1d-1km?lat_lon=48.3069,14.2858&start=2026-03-30T00:00&end=2026-03-30T23:59&parameters=RR,TN,TX&output_format=geojson. Retry 1/3.
+System.Net.Http.HttpRequestException: Der angegebene Host ist unbekannt. (dataset.api.hub.geosphere.at:443)
+ ---> System.Net.Sockets.SocketException (11001): Der angegebene Host ist unbekannt.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+2026-04-01 19:11:14 +02:00 [Warning] WetterdatenImporter.Services.ResilientHttpClient: HTTP Fehler bei /v1/forecast?latitude=47.711&longitude=13.62&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwind_speed_10m_max%2Crelative_humidity_2m_mean%2Cweather_code&timezone=Europe%2FVienna&start_date=2026-03-31&end_date=2026-03-31. Retry 1/3.
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Eine vorhandene Verbindung wurde vom Remotehost geschlossen..
+ ---> System.Net.Sockets.SocketException (10054): Eine vorhandene Verbindung wurde vom Remotehost geschlossen.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+2026-04-01 19:11:33 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 45, uebersprungen: 0, Fehler: 0
+2026-04-01 19:17:03 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-04-01 19:17:03 +02:00 [Information] Main: Starte Import fuer 04/01/2026.
+2026-04-01 19:17:09 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 45, uebersprungen: 0, Fehler: 0
+2026-04-02 09:53:59 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-04-02 09:53:59 +02:00 [Information] Main: Starte Import fuer 04/02/2026.
+2026-04-02 09:53:59 +02:00 [Warning] WetterdatenImporter.Services.ResilientHttpClient: HTTP Fehler bei /v1/timeseries/historical/spartacus-v2-1d-1km?lat_lon=48.3069,14.2858&start=2026-04-01T00:00&end=2026-04-01T23:59&parameters=RR,TN,TX&output_format=geojson. Retry 1/3.
+System.Net.Http.HttpRequestException: Der angegebene Host ist unbekannt. (dataset.api.hub.geosphere.at:443)
+ ---> System.Net.Sockets.SocketException (11001): Der angegebene Host ist unbekannt.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+2026-04-02 09:54:01 +02:00 [Warning] WetterdatenImporter.Services.ResilientHttpClient: HTTP Fehler bei /v1/timeseries/historical/spartacus-v2-1d-1km?lat_lon=48.3069,14.2858&start=2026-04-01T00:00&end=2026-04-01T23:59&parameters=RR,TN,TX&output_format=geojson. Retry 2/3.
+System.Net.Http.HttpRequestException: Der angegebene Host ist unbekannt. (dataset.api.hub.geosphere.at:443)
+ ---> System.Net.Sockets.SocketException (11001): Der angegebene Host ist unbekannt.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+2026-04-02 09:54:06 +02:00 [Information] WetterdatenImporter.Services.ImportService: Gebiet 1: beobachtete Daten von 03/31/2026 verwendet (Rueckfall aktiv).
+2026-04-02 09:54:07 +02:00 [Warning] WetterdatenImporter.Services.ResilientHttpClient: HTTP Fehler bei /v1/air-quality?latitude=48.3069&longitude=14.2858&hourly=european_aqi%2Cpm10%2Cpm2_5%2Cnitrogen_dioxide%2Cozone%2Calder_pollen%2Cbirch_pollen%2Cgrass_pollen%2Cmugwort_pollen%2Cragweed_pollen&timezone=Europe%2FVienna&start_date=2026-04-02&end_date=2026-04-02. Retry 1/3.
+System.Net.Http.HttpRequestException: Der angegebene Host ist unbekannt. (air-quality-api.open-meteo.com:443)
+ ---> System.Net.Sockets.SocketException (11001): Der angegebene Host ist unbekannt.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+2026-04-02 09:54:09 +02:00 [Warning] WetterdatenImporter.Services.ResilientHttpClient: HTTP Fehler bei /v1/air-quality?latitude=48.3069&longitude=14.2858&hourly=european_aqi%2Cpm10%2Cpm2_5%2Cnitrogen_dioxide%2Cozone%2Calder_pollen%2Cbirch_pollen%2Cgrass_pollen%2Cmugwort_pollen%2Cragweed_pollen&timezone=Europe%2FVienna&start_date=2026-04-02&end_date=2026-04-02. Retry 2/3.
+System.Net.Http.HttpRequestException: Der angegebene Host ist unbekannt. (air-quality-api.open-meteo.com:443)
+ ---> System.Net.Sockets.SocketException (11001): Der angegebene Host ist unbekannt.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+2026-04-02 18:56:54 +02:00 [Error] WetterdatenImporter.Services.ImportService: Fehler beim Import environment data fuer Gebiet 1.
+System.Net.Http.HttpRequestException: Der angegebene Host ist unbekannt. (air-quality-api.open-meteo.com:443)
+ ---> System.Net.Sockets.SocketException (11001): Der angegebene Host ist unbekannt.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+   at WetterdatenImporter.Services.OpenMeteoService.GetEnvironmentDailyAsync(MeasurementPoint point, DateOnly importDate, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\OpenMeteoService.cs:line 101
+   at WetterdatenImporter.Services.ImportService.ImportEnvironmentAsync(MeasurementPoint point, DateOnly importDate, ImportRunSummary summary, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ImportService.cs:line 171
+2026-04-02 18:57:07 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 43, uebersprungen: 1, Fehler: 1
+2026-04-04 10:25:08 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-04-04 10:25:08 +02:00 [Information] Main: Starte Import fuer 04/04/2026.
+2026-04-04 10:25:09 +02:00 [Warning] WetterdatenImporter.Services.ResilientHttpClient: HTTP Fehler bei /v1/timeseries/historical/spartacus-v2-1d-1km?lat_lon=48.3069,14.2858&start=2026-04-03T00:00&end=2026-04-03T23:59&parameters=RR,TN,TX&output_format=geojson. Retry 1/3.
+System.Net.Http.HttpRequestException: Der angegebene Host ist unbekannt. (dataset.api.hub.geosphere.at:443)
+ ---> System.Net.Sockets.SocketException (11001): Der angegebene Host ist unbekannt.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+2026-04-04 10:25:12 +02:00 [Information] WetterdatenImporter.Services.ImportService: Gebiet 1: beobachtete Daten von 04/02/2026 verwendet (Rueckfall aktiv).
+2026-04-04 10:25:12 +02:00 [Information] WetterdatenImporter.Services.ImportService: Gebiet 2: beobachtete Daten von 04/02/2026 verwendet (Rueckfall aktiv).
+2026-04-04 10:25:13 +02:00 [Information] WetterdatenImporter.Services.ImportService: Gebiet 3: beobachtete Daten von 04/02/2026 verwendet (Rueckfall aktiv).
+2026-04-04 10:25:14 +02:00 [Information] WetterdatenImporter.Services.ImportService: Gebiet 4: beobachtete Daten von 04/02/2026 verwendet (Rueckfall aktiv).
+2026-04-04 10:25:14 +02:00 [Warning] WetterdatenImporter.Services.ResilientHttpClient: HTTP Fehler bei /v1/timeseries/historical/spartacus-v2-1d-1km?lat_lon=48.25,14.6333&start=2026-04-02T00:00&end=2026-04-02T23:59&parameters=RR,TN,TX&output_format=geojson. Retry 1/3.
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to write data to the transport connection: Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen..
+ ---> System.Net.Sockets.SocketException (10053): Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.SendAsyncForNetworkStream(Socket socket, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.SendAsyncForNetworkStream(ReadOnlyMemory`1 buffer, SocketFlags socketFlags, CancellationToken cancellationToken)
+   at System.Net.Sockets.NetworkStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.WriteToStreamAsync(ReadOnlyMemory`1 source, Boolean async)
+   at System.Net.Http.HttpConnection.FlushAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPoolManager.SendAsyncCore(HttpRequestMessage request, Uri proxyUri, Boolean async, Boolean doRequestAuth, Boolean isProxyConnect, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPoolManager.SendAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.Metrics.MetricsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<>n__0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendCoreAsync(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<>n__0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendCoreAsync(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 37
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken)
+   at WetterdatenImporter.Services.GeosphereService.GetObservedDailyAsync(MeasurementPoint point, DateOnly date, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\GeosphereService.cs:line 36
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at WetterdatenImporter.Services.GeosphereService.ApplyRateLimitDelayAsync(CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\GeosphereService.cs:line 119
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetResult()
+   at System.Threading.Tasks.Task.DelayPromise.CompleteTimedOut()
+   at System.Threading.TimerQueueTimer.Fire(Boolean isThreadPool)
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+2026-04-05 19:28:12 +02:00 [Warning] WetterdatenImporter.Services.ResilientHttpClient: HTTP Fehler bei /v1/timeseries/historical/spartacus-v2-1d-1km?lat_lon=48.25,14.6333&start=2026-04-02T00:00&end=2026-04-02T23:59&parameters=RR,TN,TX&output_format=geojson. Retry 2/3.
+System.Net.Http.HttpRequestException: Der angegebene Host ist unbekannt. (dataset.api.hub.geosphere.at:443)
+ ---> System.Net.Sockets.SocketException (11001): Der angegebene Host ist unbekannt.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+2026-04-05 19:28:26 +02:00 [Error] WetterdatenImporter.Services.ImportService: Fehler beim Import observed weather fuer Gebiet 5.
+System.Net.Http.HttpRequestException: Der angegebene Host ist unbekannt. (dataset.api.hub.geosphere.at:443)
+ ---> System.Net.Sockets.SocketException (11001): Der angegebene Host ist unbekannt.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+   at WetterdatenImporter.Services.GeosphereService.GetObservedDailyAsync(MeasurementPoint point, DateOnly date, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\GeosphereService.cs:line 36
+   at WetterdatenImporter.Services.ImportService.ImportObservedAsync(MeasurementPoint point, DateOnly importDate, ImportRunSummary summary, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ImportService.cs:line 75
+2026-04-05 19:28:38 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 44, uebersprungen: 0, Fehler: 1
+2026-04-06 13:37:44 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-04-06 13:37:44 +02:00 [Information] Main: Starte Import fuer 04/06/2026.
+2026-04-06 13:37:52 +02:00 [Warning] WetterdatenImporter.Services.ResilientHttpClient: HTTP Fehler bei /v1/timeseries/historical/spartacus-v2-1d-1km?lat_lon=48.3069,14.2858&start=2026-04-05T00:00&end=2026-04-05T23:59&parameters=RR,TN,TX&output_format=geojson. Retry 1/3.
+System.Net.Http.HttpRequestException: Der angegebene Host ist unbekannt. (dataset.api.hub.geosphere.at:443)
+ ---> System.Net.Sockets.SocketException (11001): Der angegebene Host ist unbekannt.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+2026-04-06 19:51:26 +02:00 [Warning] WetterdatenImporter.Services.ResilientHttpClient: HTTP Fehler bei /v1/timeseries/historical/spartacus-v2-1d-1km?lat_lon=48.3069,14.2858&start=2026-04-05T00:00&end=2026-04-05T23:59&parameters=RR,TN,TX&output_format=geojson. Retry 2/3.
+System.Net.Http.HttpRequestException: Der angegebene Host ist unbekannt. (dataset.api.hub.geosphere.at:443)
+ ---> System.Net.Sockets.SocketException (11001): Der angegebene Host ist unbekannt.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+2026-04-06 19:52:01 +02:00 [Error] WetterdatenImporter.Services.ImportService: Fehler beim Import observed weather fuer Gebiet 1.
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: The read operation failed, see inner exception.
+ ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Security.SafeDeleteSslContext'.
+   at System.Runtime.InteropServices.SafeHandle.InternalRelease(Boolean disposeOrFinalizeOperation)
+   at System.Net.Security.SafeDeleteContext.MustRunInitializeSecurityContext(SafeFreeCredentials& inCredentials, Boolean isContextAbsent, Byte* targetName, ContextFlags inFlags, Endianness endianness, SecBufferDesc* inputBuffer, SafeDeleteContext outContext, SecBufferDesc& outputBuffer, ContextFlags& attributes, SafeFreeContextBuffer handleTemplate)
+   at System.Net.Security.SafeDeleteContext.InitializeSecurityContext(SafeFreeCredentials& inCredentials, SafeDeleteSslContext& refContext, String targetName, ContextFlags inFlags, Endianness endianness, InputSecurityBuffers inSecBuffers, SecurityBuffer& outSecBuffer, ContextFlags& outFlags)
+   at System.Net.Security.SslStreamPal.InitializeSecurityContext(SafeFreeCredentials& credentialsHandle, SafeDeleteSslContext& context, String targetName, ReadOnlySpan`1 inputBuffer, Byte[]& outputBuffer, SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.GenerateToken(ReadOnlySpan`1 inputBuffer, Byte[]& output)
+   at System.Net.Security.SslStream.NextMessage(ReadOnlySpan`1 incomingBuffer, ProtocolToken& token)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ReplyOnReAuthenticationAsync[TIOAdapter](Byte[] buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WetterdatenImporter.Services.ResilientHttpClient.GetJsonAsync(String clientName, String requestUri, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ResilientHttpClient.cs:line 38
+   at WetterdatenImporter.Services.GeosphereService.GetObservedDailyAsync(MeasurementPoint point, DateOnly date, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\GeosphereService.cs:line 36
+   at WetterdatenImporter.Services.ImportService.ImportObservedAsync(MeasurementPoint point, DateOnly importDate, ImportRunSummary summary, CancellationToken cancellationToken) in C:\Users\lholz\OneDrive\Desktop\Diplomarbeit\RKA_RotKreuzApp\Datensammlung\Wetterdaten\WetterdatenImporter\Services\ImportService.cs:line 75
+2026-04-06 19:52:07 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 44, uebersprungen: 0, Fehler: 1

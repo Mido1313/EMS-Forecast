@@ -19,7 +19,11 @@ repository = SeedDataRepository(settings)
 feature_engineering = FeatureEngineeringService()
 risk_model = TransparentRiskModel()
 risk_service = RiskService(repository=repository, feature_engineering=feature_engineering, model=risk_model)
-geometry_service = GeometryService(settings.geojson_path)
+geometry_service = GeometryService(
+    geojson_path=settings.geojson_path,
+    mapping_path=settings.mapping_path,
+    areas_csv_path=settings.data_seed_dir / "areas.csv",
+)
 
 app = FastAPI(
     title="Rettungsdienst-Risiko-Prototyp OOE",

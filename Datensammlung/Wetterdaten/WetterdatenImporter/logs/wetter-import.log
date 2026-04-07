@@ -942,3 +942,12 @@ RETURNING "Id";
 2026-03-23 00:09:04 +01:00 [Information] WetterdatenImporter.Services.ImportService: Gebiet 14: beobachtete Daten von 03/21/2026 verwendet (Rueckfall aktiv).
 2026-03-23 00:09:04 +01:00 [Information] WetterdatenImporter.Services.ImportService: Gebiet 15: beobachtete Daten von 03/21/2026 verwendet (Rueckfall aktiv).
 2026-03-23 00:09:05 +01:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 30, uebersprungen: 15, Fehler: 0
+2026-03-30 19:53:23 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-03-30 19:53:23 +02:00 [Information] Main: Starte Import fuer 03/30/2026.
+2026-03-30 19:53:29 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 45, uebersprungen: 0, Fehler: 0
+2026-04-02 19:21:27 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-04-02 19:21:27 +02:00 [Information] Main: Starte Import fuer 04/02/2026.
+2026-04-02 19:21:32 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 45, uebersprungen: 0, Fehler: 0
+2026-04-07 16:31:18 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-04-07 16:31:18 +02:00 [Information] Main: Starte Import fuer 04/07/2026.
+2026-04-07 16:31:33 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 45, uebersprungen: 0, Fehler: 0
