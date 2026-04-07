@@ -17,3 +17,17 @@ Basic ReadMe TODO
 - **23.03.2026** API Anbindung und Visualisierung; *Quellen: EVIS* (Lukas)
 - **06.04.2026:** Daten sammeln über **Events** und **Veranstaltungen** (inkl. Erweiterung der Daten für 2027); *Quellen: oesterreich.gv.at* (Merjem)
 - **06.04.2026:** Daten sammeln über **Ausflugziele Natur**; (Merjem)
+
+
+## Meilensteine
+
+1. Infrastruktur- und demografische Daten sind vollständig erhoben, strukturiert und den Gebieten zugeordnet
+2. Ein konsistenter und bereinigter Einsatzdatensatz ist erstellt und enthält alle relevanten Attribute
+3. Alle Datenquellen sind in einer zentralen Datenbank integriert und korrekt verknüpft
+4. Zeitliche und räumliche Muster sind analysiert und durch Visualisierungen sowie dokumentierte Erkenntnisse nachgewiesen
+5. Die Vorhersageaufgabe ist formal definiert und ein geeigneter Modellansatz wurde begründet ausgewählt
+6. Ein Prognosemodell ist implementiert, trainiert und anhand definierter Metriken bewertet
+7. Eine API stellt Einsatzprognosen für definierte Parameter korrekt bereit
+8. Eine Weboberfläche visualisiert die Prognosen in einer interaktiven Kartenansicht
+9. Alle Komponenten sind integriert und ermöglichen eine durchgängige Demonstration
+10. Das Modellverhalten ist analysiert und hinsichtlich Aussagekraft und Grenzen kritisch bewertet
