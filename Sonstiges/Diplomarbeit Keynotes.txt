@@ -35,7 +35,7 @@ DB Setup: 10h
 Cleaning: 10h
 Analyse: 10h
 Doku: 25h
-👉 ~80h
+~80h
 
 Mido (ML Lead)
 Feature Engineering: 15h
@@ -44,7 +44,7 @@ Modell bauen: 15h
 Evaluation: 10h
 Experimente: 10h
 Doku: 25h
-👉 ~85h
+~85h
 
 Lukas (System Lead)
 API: 15h
@@ -53,7 +53,7 @@ Frontend Map: 20h
 Visualisierung: 15h
 Integration: 10h
 Doku: 25h
-👉 ~95h
+~95h
 
 Datenerhebung:
 - Welche Daten?
