@@ -47,7 +47,7 @@
 
 - Bevölkerungsstatistik 
     - dort wirklich relevant ob Daten für alle PLZ erhältlich oder nur für Bezirke; teilt sich ein Gebiet einen Bezirk am besten mit Durchschnitten arbeiten
-        - Alter (wenn möglich pro Bezirk in Altersgruppen bis 10/30/60 Jahre und 60+)
+        - Alter (wenn möglich pro Bezirk in Altersgruppen bis 15/30/60 Jahre und 60+)
         - Arbeitslosigkeit
         - Geschlechtsstatistik (m/w/d)
         - Anteil Single Haushalte
