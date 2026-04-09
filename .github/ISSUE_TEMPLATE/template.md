@@ -14,9 +14,7 @@ I want <goal>
 
 So that <benefit>
  
-## Estimation
-
-Size: <XS/S/M/L/XL>  
+## Estimation Of Effort
 
 Hours: <x-x>
  
@@ -28,12 +26,6 @@ Hours: <x-x>
 
 - [ ] ...
  
- 
-## Labels
-<user story/frontend/backend/data/ml/api/docs/...>
- 
-## Milestone
-<Phase X - ...>
  
 ## Dependencies
 <optional>
