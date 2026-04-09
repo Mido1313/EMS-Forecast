@@ -3,10 +3,7 @@ name: Template issue
 about: Default template for RotKreuz issues
 title: ""
 ---
-## Title
-<short description>
- 
-## User Story
+ ## User Story
 
 As a <role>  
 
