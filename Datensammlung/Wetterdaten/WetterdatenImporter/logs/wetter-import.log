@@ -951,3 +951,12 @@ RETURNING "Id";
 2026-04-07 16:31:18 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
 2026-04-07 16:31:18 +02:00 [Information] Main: Starte Import fuer 04/07/2026.
 2026-04-07 16:31:33 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 45, uebersprungen: 0, Fehler: 0
+2026-04-08 16:21:10 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-04-08 16:21:10 +02:00 [Information] Main: Starte Import fuer 04/08/2026.
+2026-04-08 16:21:14 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 45, uebersprungen: 0, Fehler: 0
+2026-04-09 18:48:03 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-04-09 18:48:03 +02:00 [Information] Main: Starte Import fuer 04/09/2026.
+2026-04-09 18:48:07 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 45, uebersprungen: 0, Fehler: 0
+2026-04-13 16:06:21 +02:00 [Information] Microsoft.EntityFrameworkCore.Migrations: No migrations were applied. The database is already up to date.
+2026-04-13 16:06:21 +02:00 [Information] Main: Starte Import fuer 04/13/2026.
+2026-04-13 16:06:25 +02:00 [Information] Main: Import abgeschlossen. Messpunkte: 15, gespeichert: 45, uebersprungen: 0, Fehler: 0
