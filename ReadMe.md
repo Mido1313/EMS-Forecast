@@ -17,6 +17,7 @@ Basic ReadMe TODO
 - **23.03.2026** API Anbindung und Visualisierung; *Quellen: EVIS* (Lukas)
 - **06.04.2026:** Daten sammeln über **Events** und **Veranstaltungen** (inkl. Erweiterung der Daten für 2027); *Quellen: oesterreich.gv.at* (Merjem)
 - **06.04.2026:** Daten sammeln über **Ausflugziele Natur**; (Merjem)
+- **13.04.2026:** Zur Simulation wurden **synthetische Daten** (Mockdaten) erstellt.; (Merjem)
 
 
 ## Meilensteine
