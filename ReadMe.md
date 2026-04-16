@@ -22,6 +22,7 @@ Basic ReadMe TODO
 - **13.04.2026:** Zur Simulation wurden **synthetische Daten** (Mockdaten) erstellt; (Merjem)
 - **14.04.2026** Kompilierung Daten Bevölkerung in json (Mido)
 - **15.04.2026** Abschluss Generierung von **5k Mockdaten** (Lukas)
+- **16.04.2026** 1000 Mockdaten erstellt (Mido)
 
 
 
