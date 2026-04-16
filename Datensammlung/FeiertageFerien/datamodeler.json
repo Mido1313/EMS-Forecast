@@ -1,10 +1,4 @@
-{
-  "titel": "Feiertage und Ferien in OÖ",
-  "sektionen": [
-    {
-      "ueberschrift": "Feiertage und Ferien in OÖ 2024",
-      "jahr": 2024,
-      "eintraege": [
+ [
         {
           "typ": "Feiertag",
           "name": "Neujahr",
@@ -136,13 +130,7 @@
           "name": "Weihnachtsferien",
           "start": "24.12.2024",
           "ende": "06.01.2025"
-        }
-      ]
-    },
-    {
-      "ueberschrift": "Feiertage und Ferien in OÖ 2025",
-      "jahr": 2025,
-      "eintraege": [
+        },
         {
           "typ": "Feiertag",
           "name": "Neujahr",
@@ -274,13 +262,7 @@
           "name": "Weihnachtsferien",
           "start": "24.12.2025",
           "ende": "06.01.2026"
-        }
-      ]
-    },
-    {
-      "ueberschrift": "Feiertage und Ferien in OÖ 2026",
-      "jahr": 2026,
-      "eintraege": [
+        },
         {
           "typ": "Feiertag",
           "name": "Neujahr",
@@ -412,13 +394,7 @@
           "name": "Weihnachtsferien",
           "start": "24.12.2026",
           "ende": "06.01.2027"
-        }
-      ]
-    },
-    {
-      "ueberschrift": "Feiertage und Ferien in OÖ 2027",
-      "jahr": 2027,
-      "eintraege": [
+        },
         {
           "typ": "Feiertag",
           "name": "Neujahr",
@@ -546,6 +522,3 @@
           "ende": "31.10.2027"
         }
       ]
-    }
-  ]
-}
