@@ -1,7 +1,5 @@
 {
   "events": [
-    //BRAUNAU
-    //2024
     {
       "name": "Woodstock der Blasmusik",
       "ort": "Ort im Innkreis",
@@ -44,8 +42,6 @@
       "start_datum": "2024-12-05",
       "end_datum": "2024-12-23"
     },
-    //
-    //2025
     {
       "name": "Braunauer Christkindlmarkt",
       "stadt": "Braunau am Inn",
@@ -88,8 +84,6 @@
       "start_datum": "2025-09-12",
       "end_datum": "2025-09-14"
     },
-    //
-    //2026
     {
       "name": "Woodstock der Blasmusik",
       "ort": "Ort im Innkreis",
@@ -121,8 +115,6 @@
       "end_datum": "2026-09-13",
       "typ": "Messe"
     },
-    //
-    //2027
     {
       "name": "Innviertler Biermärz",
       "ort": "Braunau am Inn",
@@ -158,11 +150,7 @@
       "start_datum": "2027-11-26",
       "end_datum": "2027-12-19"
     },
-    //
-    //END BRAUNAU
 
-    //EFERDING
-    //2024
     {
       "name": "Eferdinger Schlossadvent",
       "ort": "Eferding",
@@ -219,8 +207,6 @@
       "start_datum": "2024-09-29",
       "end_datum": "2024-09-29"
     },
-    //
-    //2025
     {
       "name": "Silvesterfeier",
       "ort": "Eferding",
@@ -256,8 +242,6 @@
       "start_datum": "2025-06-01",
       "end_datum": "2025-08-31"
     },
-    //
-    //2026
     {
       "name": "Silvesterfeier",
       "ort": "Eferding",
@@ -294,8 +278,6 @@
       "start_datum": "2025-06-01",
       "end_datum": "2025-08-31"
     },
-    //
-    //2027
     {
       "name": "Silvesterfeier",
       "ort": "Eferding",
@@ -331,11 +313,7 @@
       "start_datum": "2027-06-01",
       "end_datum": "2027-08-31"
     },
-    //
-    //END EFERDING
 
-    //FREISTADT
-    //2024
     {
       "name": "Freistädter Jahrmarkt (Frühjahr)",
       "ort": "Freistadt",
@@ -371,8 +349,6 @@
       "start_datum": "2024-06-01",
       "end_datum": "2024-08-31"
     },
-    //
-    //2025
     {
       "name": "Silvesterfeier Freistadt",
       "ort": "Freistadt",
@@ -415,8 +391,6 @@
       "start_datum": "2025-06-01",
       "end_datum": "2025-08-31"
     },
-    //
-    //2026
     {
       "name": "Silvesterfeier Freistadt",
       "ort": "Freistadt",
@@ -445,8 +419,6 @@
       "start_datum": "2026-06-01",
       "end_datum": "2026-08-31"
     },
-    //
-    //2027
     {
       "name": "Freistädter Jahrmarkt",
       "ort": "Freistadt",
@@ -468,11 +440,7 @@
       "start_datum": "2027-12-31",
       "end_datum": "2028-01-01"
     },
-    //
-    //END FREISTADT
 
-    //GMUNDEN
-    //2024
     {
       "name": "Liebstattsonntag",
       "ort": "Gmunden",
@@ -508,8 +476,6 @@
       "start_datum": "2024-12-31",
       "end_datum": "2025-01-01"
     },
-    //
-    //2025
     {
       "name": "Liebstattsonntag",
       "ort": "Gmunden",
@@ -545,8 +511,6 @@
       "start_datum": "2025-12-31",
       "end_datum": "2026-01-01"
     },
-    //
-    //2026
      {
       "name": "Liebstattsonntag",
       "ort": "Gmunden",
@@ -582,8 +546,6 @@
       "start_datum": "2026-12-31",
       "end_datum": "2027-01-01"
     },
-    //
-    //2027
     {
       "name": "Silvesterfeier Gmunden",
       "ort": "Gmunden",
@@ -619,11 +581,7 @@
       "start_datum": "2027-11-26",
       "end_datum": "2027-12-23"
     },
-    //
-    //END GMUNDEN
 
-    //GRIESKIRCHEN
-    //2024
     {
       "name": "Grieskirchner Volksfest",
       "ort": "Grieskirchen",
@@ -659,8 +617,6 @@
       "start_datum": "2024-12-31",
       "end_datum": "2025-01-01"
     },
-    //
-    //2025
     {
       "name": "Grieskirchner Volksfest",
       "ort": "Grieskirchen",
@@ -696,8 +652,6 @@
       "start_datum": "2025-12-31",
       "end_datum": "2026-01-01"
     },
-    //
-    //2026
     {
       "name": "Grieskirchner Volksfest",
       "ort": "Grieskirchen",
@@ -733,8 +687,6 @@
       "start_datum": "2026-12-31",
       "end_datum": "2027-01-01"
     },
-    //
-    //2027
      {
       "name": "Grieskirchner Volksfest",
       "ort": "Grieskirchen",
@@ -749,11 +701,7 @@
       "start_datum": "2027-12-31",
       "end_datum": "2028-01-01"
     },
-    //
-    //END GRIESKIRCHEN
 
-    //KRICHDORF
-    //2024
     {
       "name": "Pyhrn-Priel Saisonveranstaltungen (Tourismusregion)",
       "ort": "Hinterstoder / Windischgarsten",
@@ -789,8 +737,6 @@
       "start_datum": "2024-12-31",
       "end_datum": "2025-01-01"
     },
-    //
-    //2025
     {
       "name": "Pyhrn-Priel Saisonveranstaltungen",
       "ort": "Hinterstoder / Windischgarsten",
@@ -826,8 +772,6 @@
       "start_datum": "2025-12-31",
       "end_datum": "2026-01-01"
     },
-    //
-    //2026
     {
       "name": "Pyhrn-Priel Saisonveranstaltungen",
       "ort": "Hinterstoder / Windischgarsten",
@@ -863,8 +807,6 @@
       "start_datum": "2026-12-31",
       "end_datum": "2027-01-01"
     },
-    //
-    //2027
     {
       "name": "Mostkost Region Kirchdorf",
       "ort": "Kirchdorf an der Krems",
@@ -879,11 +821,7 @@
       "start_datum": "2027-12-31",
       "end_datum": "2028-01-01"
     },
-    //
-    //END KIRCHDORF
 
-    //LINZ-LAND
-    //2024
     {
       "name": "Mostkost Linz-Land",
       "ort": "Linz-Land",
@@ -919,8 +857,6 @@
       "start_datum": "2024-12-31",
       "end_datum": "2025-01-01"
     },
-    //
-    //2025
     {
       "name": "Mostkost Linz-Land",
       "ort": "Linz-Land",
@@ -956,8 +892,6 @@
       "start_datum": "2025-12-31",
       "end_datum": "2026-01-01"
     },
-    //
-    //2026
     {
       "name": "Mostkost Linz-Land",
       "ort": "Linz-Land",
@@ -993,8 +927,6 @@
       "start_datum": "2026-12-31",
       "end_datum": "2027-01-01"
     },
-    //
-    //2027
     {
       "name": "Silvesterfeiern Linz-Land",
       "ort": "Linz-Land",
@@ -1050,12 +982,7 @@
       "plz": "4050",
       "start_datum": "2027-07-01",
       "end_datum": "2027-08-31"
-    }
-    //
-    //END LINZ-LAND
-
-    //PERG
-    //2024
+    },
      {
       "name": "Mauthausen Gedenkfeiern",
       "ort": "Mauthausen",
@@ -1091,8 +1018,6 @@
       "start_datum": "2024-12-31",
       "end_datum": "2025-01-01"
     },
-    //
-    //2025
     {
       "name": "Mauthausen Gedenkfeiern",
       "ort": "Mauthausen",
@@ -1128,8 +1053,6 @@
       "start_datum": "2025-12-31",
       "end_datum": "2026-01-01"
     },
-    //
-    //2026
     {
       "name": "Mauthausen Gedenkfeiern",
       "ort": "Mauthausen",
@@ -1165,8 +1088,6 @@
       "start_datum": "2026-12-31",
       "end_datum": "2027-01-01"
     },
-    //
-    //2027
     {
       "name": "Mauthausen Gedenkfeiern",
       "ort": "Mauthausen",
@@ -1224,11 +1145,7 @@
       "start_datum": "2027-07-01",
       "end_datum": "2027-08-31"
     },
-    //
-    //END PERG
 
-    //RIED
-    //2024
     {
       "name": "Rieder Messe",
       "ort": "Ried im Innkreis",
@@ -1271,8 +1188,6 @@
       "start_datum": "2024-12-31",
       "end_datum": "2025-01-01"
     },
-    //
-    //2025
     {
       "name": "Rieder Messe (Herbstmesse)",
       "ort": "Ried im Innkreis",
@@ -1315,8 +1230,6 @@
       "start_datum": "2025-12-31",
       "end_datum": "2026-01-01"
     },
-    //
-    //2026
     {
       "name": "Rieder Messe",
       "ort": "Ried im Innkreis",
@@ -1359,8 +1272,6 @@
       "start_datum": "2026-12-31",
       "end_datum": "2027-01-01"
     },
-    //
-    //2027
     {
       "name": "Rieder Messe",
       "ort": "Ried im Innkreis",
@@ -1425,11 +1336,7 @@
       "start_datum": "2027-07-01",
       "end_datum": "2027-08-31"
     },
-    //
-    //END RIED
 
-    //ROHRBACH
-    //2024
     {
       "name": "Rohrbacher Messe / Bezirksmesse",
       "ort": "Rohrbach-Berg",
@@ -1465,8 +1372,6 @@
       "start_datum": "2024-12-31",
       "end_datum": "2025-01-01"
     },
-    //
-    //2025
     {
       "name": "Rohrbacher Messe / Bezirksmesse",
       "ort": "Rohrbach-Berg",
@@ -1502,8 +1407,6 @@
       "start_datum": "2025-12-31",
       "end_datum": "2026-01-01"
     },
-    //
-    //2026
     {
       "name": "Rohrbacher Messe / Bezirksmesse",
       "ort": "Rohrbach-Berg",
@@ -1539,8 +1442,6 @@
       "start_datum": "2026-12-31",
       "end_datum": "2027-01-01"
     },
-    //
-    //2027
     {
       "name": "Rohrbacher Messe / Bezirksmesse",
       "ort": "Rohrbach-Berg",
@@ -1597,11 +1498,7 @@
       "start_datum": "2027-07-01",
       "end_datum": "2027-08-31"
     },
-    //
-    //END ROHRBACH
 
-    //SCHÄRDING
-    //2024
     {
       "name": "Schärdinger Stadtfest",
       "ort": "Schärding",
@@ -1637,8 +1534,6 @@
       "start_datum": "2024-12-31",
       "end_datum": "2025-01-01"
     },
-    //
-    //2025
     {
       "name": "Schärdinger Stadtfest",
       "ort": "Schärding",
@@ -1674,8 +1569,6 @@
       "start_datum": "2025-12-31",
       "end_datum": "2026-01-01"
     },
-    //
-    //2026
     {
       "name": "Schärdinger Stadtfest",
       "ort": "Schärding",
@@ -1711,8 +1604,6 @@
       "start_datum": "2026-12-31",
       "end_datum": "2027-01-01"
     },
-    //
-    //2027
     {
       "name": "Schärdinger Stadtfest",
       "ort": "Schärding",
@@ -1769,11 +1660,7 @@
       "start_datum": "2027-07-01",
       "end_datum": "2027-08-31"
     },
-    //
-    //END SCHÄRDING
 
-    //STEYR-LAND
-    //2024
     {
       "name": "Garstner Advent",
       "ort": "Garsten",
@@ -1809,8 +1696,6 @@
       "start_datum": "2024-12-31",
       "end_datum": "2025-01-01"
     },
-    //
-    //2025
     {
       "name": "Garstner Advent",
       "ort": "Garsten",
@@ -1846,8 +1731,6 @@
       "start_datum": "2025-12-31",
       "end_datum": "2026-01-01"
     },
-    //
-    //2026
     {
       "name": "Garstner Advent",
       "ort": "Garsten",
@@ -1883,8 +1766,6 @@
       "start_datum": "2026-12-31",
       "end_datum": "2027-01-01"
     },
-    //
-    //2027
     {
       "name": "Garstner Advent",
       "ort": "Garsten",
@@ -1942,11 +1823,7 @@
       "start_datum": "2027-07-01",
       "end_datum": "2027-08-31"
     },
-    //
-    //END STEYR-LAND
 
-    //URFAHR-UMGEBUNG
-    //2024
     {
       "name": "Gallneukirchner Stadtfest",
       "ort": "Gallneukirchen",
@@ -1982,8 +1859,6 @@
       "start_datum": "2024-12-31",
       "end_datum": "2025-01-01"
     },
-    //
-    //2025
        {
       "name": "Gallneukirchner Stadtfest",
       "ort": "Gallneukirchen",
@@ -2019,8 +1894,6 @@
       "start_datum": "2025-12-31",
       "end_datum": "2026-01-01"
     },
-    //
-    //2026
     {
       "name": "Gallneukirchner Stadtfest",
       "ort": "Gallneukirchen",
@@ -2056,8 +1929,6 @@
       "start_datum": "2026-12-31",
       "end_datum": "2027-01-01"
     },
-    //
-    //2027
     {
       "name": "Gallneukirchner Stadtfest",
       "ort": "Gallneukirchen",
@@ -2115,11 +1986,7 @@
       "start_datum": "2027-07-01",
       "end_datum": "2027-08-31"
     },
-    //
-    //END URFAHR-UMGEBUNG
 
-    //VÖCKLABRUCK
-    //2024
     {
       "name": "Vöcklabrucker Stadtfest",
       "ort": "Vöcklabruck",
@@ -2162,8 +2029,6 @@
       "start_datum": "2024-12-31",
       "end_datum": "2025-01-01"
     },
-    //
-    //2025
      {
       "name": "Vöcklabrucker Stadtfest",
       "ort": "Vöcklabruck",
@@ -2206,8 +2071,6 @@
       "start_datum": "2025-12-31",
       "end_datum": "2026-01-01"
     },
-    //
-    //2026
     {
       "name": "Vöcklabrucker Stadtfest",
       "ort": "Vöcklabruck",
@@ -2250,8 +2113,6 @@
       "start_datum": "2026-12-31",
       "end_datum": "2027-01-01"
     },
-    //
-    //2027
     {
       "name": "Vöcklabrucker Stadtfest",
       "ort": "Vöcklabruck",
@@ -2316,11 +2177,7 @@
       "start_datum": "2027-07-01",
       "end_datum": "2027-08-31"
     },
-    //
-    //END VÖCKLABRUCK
 
-    //WELS-LAND
-    //2024
     {
       "name": "Marchtrenker Stadtfest",
       "ort": "Marchtrenk",
@@ -2356,8 +2213,6 @@
       "start_datum": "2024-12-31",
       "end_datum": "2025-01-01"
     },
-    //
-    //2025
     {
       "name": "Marchtrenker Stadtfest",
       "ort": "Marchtrenk",
@@ -2393,8 +2248,6 @@
       "start_datum": "2025-12-31",
       "end_datum": "2026-01-01"
     },
-    //
-    //2026
     {
       "name": "Marchtrenker Stadtfest",
       "ort": "Marchtrenk",
@@ -2430,8 +2283,6 @@
       "start_datum": "2026-12-31",
       "end_datum": "2027-01-01"
     },
-    //
-    //2027
     {
       "name": "Marchtrenker Stadtfest",
       "ort": "Marchtrenk",
@@ -2488,7 +2339,5 @@
       "start_datum": "2027-07-01",
       "end_datum": "2027-08-31"
     }
-    //
-    //END WELS-LAND
   ]
 }

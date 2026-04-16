@@ -1,6 +1,5 @@
 {
   "ausflugsziele": [
-    //Braunau
     {
       "name": "Höllerersee",
       "ort": "St. Pantaleon",
@@ -41,7 +40,6 @@
       "risikostufe": 5,
       "saison": ["Sommer"]
     },
-    //Eferding
     {
       "name": "Donau",
       "ort": "Eferding / Aschach an der Donau",
@@ -66,7 +64,6 @@
       "risikostufe": 3,
       "saison": ["Sommer"]
     },
-    //Freistadt
     {
       "name": "Braunberg",
       "ort": "St. Oswald bei Freistadt",
@@ -107,7 +104,6 @@
       "risikostufe": 2,
       "saison": ["Sommer", "Winter"]
     },
-    //Gmunden
     {
       "name": "Traunstein",
       "ort": "Gmunden",
@@ -164,7 +160,6 @@
       "risikostufe": 3,
       "saison": ["Sommer", "Winter"]
     },
-    //Grieskirchen
     {
       "name": "Trattnach",
       "ort": "Grieskirchen",
@@ -197,7 +192,6 @@
       "risikostufe": 2,
       "saison": ["Sommer", "Winter"]
     },
-    //Kirchdorf
     {
       "name": "Warscheneck",
       "ort": "Spital am Pyhrn",
@@ -254,7 +248,6 @@
       "risikostufe": 4,
       "saison": ["Sommer", "Winter"]
     },
-    //Linz-Land
     {
       "name": "Donau (Linz-Land Abschnitt)",
       "ort": "Ansfelden / Puchenau",
@@ -303,7 +296,6 @@
       "risikostufe": 2,
       "saison": ["Sommer", "Winter"]
     },
-    //Perg
     {
       "name": "Donau (Perg Abschnitt)",
       "ort": "Grein",
@@ -344,7 +336,6 @@
       "risikostufe": 4,
       "saison": ["Sommer", "Winter"]
     },
-    //Ried
     {
       "name": "Antiesen (Fluss)",
       "ort": "Ried im Innkreis",
@@ -377,7 +368,6 @@
       "risikostufe": 2,
       "saison": ["Sommer", "Winter"]
     },
-    //Rohrbach
     {
       "name": "Große Mühl",
       "ort": "Aigen-Schlägl",
@@ -410,7 +400,6 @@
       "risikostufe": 3,
       "saison": ["Sommer", "Winter"]
     },
-    //Schärding
     {
       "name": "Inn (Schärding Abschnitt)",
       "ort": "Schärding",
@@ -443,7 +432,6 @@
       "risikostufe": 2,
       "saison": ["Sommer"]
     },
-    //Steyr-Land
     {
       "name": "Steyr (Fluss)",
       "ort": "Sierning",
@@ -484,7 +472,6 @@
       "risikostufe": 2,
       "saison": ["Sommer"]
     },
-    //Urfahr-Umgebung
     {
       "name": "Donau (Urfahr-Umgebung Abschnitt)",
       "ort": "Ottensheim",
@@ -525,7 +512,6 @@
       "risikostufe": 2,
       "saison": ["Sommer", "Winter"]
     },
-    //Vöcklabruck
     {
       "name": "Attersee",
       "ort": "Seewalchen am Attersee",
@@ -566,7 +552,6 @@
       "risikostufe": 4,
       "saison": ["Sommer"]
     },
-    //Wels-Land
     {
       "name": "Traun (Fluss)",
       "ort": "Marchtrenk",

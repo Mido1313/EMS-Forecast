@@ -1,6 +1,5 @@
 {
   "pflegeheime": [
-    //START LINZ
     {
       "name": "Seniorenzentrum Dornach/Auhof",
       "ort": "Linz",
@@ -103,9 +102,7 @@
       "plz": "4020",
       "pflegeplaetze": 130
     },
-    //END LINZ
 
-    //START STEYR
     {
       "name": "Alten- und Pflegeheim Tabor",
       "ort": "Steyr",
@@ -124,9 +121,7 @@
       "plz": "4400",
       "pflegeplaetze": 118
     },
-    //END STEYR
 
-    //START WELS
     {
       "name": "Haus Leopold Spitzer",
       "ort": "Wels",
@@ -163,9 +158,7 @@
       "plz": "4600",
       "pflegeplaetze": 76
     },
-    //END WELS
 
-    //START BRAUNAU
     {
       "name": "Bezirksseniorenzentrum Altheim",
       "ort": "Altheim",
@@ -173,13 +166,13 @@
       "pflegeplaetze": 99
     },
     {
-      "name": "Bezirksseniorenzentrum Braunau "Haus am Rosengarten" ",
+      "name": "Bezirksseniorenzentrum Braunau \"Haus am Rosengarten\"",
       "ort": "Braunau am Inn",
       "plz": "5280",
       "pflegeplaetze": 90
     },
     {
-      "name": "Bezirksseniorenzentrum Braunau "Haus am Rosengarten" ",
+      "name": "Bezirksseniorenzentrum Braunau \"Haus am Rosengarten\"",
       "ort": "Braunau",
       "plz": "5280",
       "pflegeplaetze": 100
@@ -214,9 +207,7 @@
       "plz": "5241",
       "pflegeplaetze": 80
     },
-    //END BRAUNAU
 
-    //START EFERDING
     {
       "name": "Bezirksalten- und Pflegeheim Eferding",
       "ort": "Eferding",
@@ -229,9 +220,7 @@
       "plz": "4081",
       "pflegeplaetze": 74
     },
-    //END EFERDING
 
-    //START FREISTADT
     {
       "name": "Bezirksseniorenheim Freistadt",
       "ort": "Freistadt",
@@ -268,9 +257,7 @@
       "plz": "4283",
       "pflegeplaetze": 48
     },
-    //END FREISTADT
 
-    //START GMUNDEN
     {
       "name": "Bezirksseniorenheim Vorchdorf",
       "ort": "Vorchdorf",
@@ -337,9 +324,7 @@
       "plz": "4810",
       "pflegeplaetze": 94
     },
-    //END GMUNDEN
 
-    //START GRIESKIRCHEN
     {
       "name": "Bezirksalten- und Pflegeheim Gaspoltshofen",
       "ort": "Gaspoltshofen",
@@ -382,9 +367,7 @@
       "plz": "4701",
       "pflegeplaetze": 78
     },
-    //END GRIESKIRCHEN
 
-    //START KIRCHDORF
     {
       "name": "Bezirksalten- und Pflegeheim Kirchdorf",
       "ort": "Kirchdorf/Krems",
@@ -421,9 +404,7 @@
       "plz": "4551",
       "pflegeplaetze": 80
     },
-    //END KIRCHDORF
 
-    //START LINZ-LAND
     {
       "name": "Zentrum Betreuung und Pflege Enns",
       "ort": "Enns",
@@ -484,9 +465,7 @@
       "plz": "4061",
       "pflegeplaetze": 67
     },
-    //END LINZ-LAND
 
-    //START PERG
     {
       "name": "SENIORium Bad Kreuzen",
       "ort": "Bad Kreuzen",
@@ -529,9 +508,7 @@
       "plz": "4222",
       "pflegeplaetze": 83
     },
-    //END PERG
 
-    //START RIED IM INNKREIS
     {
       "name": "Pflegeheim Eberschwang",
       "ort": "Eberschwang",
@@ -562,9 +539,7 @@
       "plz": "4941",
       "pflegeplaetze": 79
     },
-    //END RIED IM INNKREIS
 
-    //START ROHRBACH
     {
       "name": "Bezirksalten- und Pflegeheim Aigen-Schlägl",
       "ort": "Aigen i. M.",
@@ -601,9 +576,7 @@
       "plz": "4161",
       "pflegeplaetze": 73
     },
-    //END ROHRBACH
 
-    //START SCHÄRDING
     {
       "name": "Bezirksalten- und Pflegeheim Schärding Zentrum Tummelplatz",
       "ort": "Schärding/Inn",
@@ -640,9 +613,7 @@
       "plz": "4090",
       "pflegeplaetze": 30
     },
-    //END SCHÄRDING
 
-    //START STEYR-LAND
     {
       "name": "Bezirksseniorenwohnheim Bad Hall",
       "ort": "Bad Hall",
@@ -691,9 +662,7 @@
       "plz": "4522",
       "pflegeplaetze": 64
     },
-    //END STEYR-LAND
 
-    //START URFAHR-UMGEBUNG
     {
       "name": "Bezirksseniorenheim Bad Leonfelden",
       "ort": "Bad Leonfelden",
@@ -742,10 +711,8 @@
       "plz": "4101",
       "pflegeplaetze": 90
     },
-    //END URFAHR-UMGEBUNG
 
 
-    //START VÖCKLABRUCK
     {
       "name": "Bezirksalten- und Pflegeheim Attnang-Puchheim",
       "ort": "Attnang-Puchheim",
@@ -830,9 +797,7 @@
       "plz": "4901",
       "pflegeplaetze": 72
     },
-    //END VÖCKLABRUCK
 
-    //START WELS-LAND
     {
       "name": "Bezirksalten- und Pflegeheim Lambach",
       "ort": "Lambach",
@@ -869,6 +834,5 @@
       "plz": "4651",
       "pflegeplaetze": 80
     }
-    //END WELS-LAND
   ]
 }
