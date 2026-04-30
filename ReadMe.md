@@ -10,19 +10,20 @@ Basic ReadMe TODO
 ### Datenerfassung
 
 - **05.03.2026** Set-up Github und first commit für weitere Planung (Mido)
-- **20.03.2026:** Erste **Planung** für die ersten Steps (Lukas)
-- **22.03.2026:** Fertigstellung der **Gebietseinteilung** und der **PLZ-Liste** (PLZ-Name-Gebiets_ID); *Quellen: gemeinden.at, wikipedia.com* (Lukas)
-- **19.03.2026:** Daten sammeln über **Feiertage** und **Ferien**; *Quellen: ferienwiki.at, feiertage-oesterreich.at* (Merjem)
-- **22.03.2026:** Daten sammeln über **Pfelegeheime**; *Quellen: land-oberoesterreich.gv.at* (Merjem)
+- **20.03.2026** Erste **Planung** für die ersten Steps (Lukas)
+- **22.03.202** Fertigstellung der **Gebietseinteilung** und der **PLZ-Liste** (PLZ-Name-Gebiets_ID); *Quellen: gemeinden.at, wikipedia.com* (Lukas)
+- **19.03.2026** Daten sammeln über **Feiertage** und **Ferien**; *Quellen: ferienwiki.at, feiertage-oesterreich.at* (Merjem)
+- **22.03.2026** Daten sammeln über **Pfelegeheime**; *Quellen: land-oberoesterreich.gv.at* (Merjem)
 - **23.03.2026** API Anbindung von Wetterdaten; *Quellen: geosphere, OpenWeather* (Lukas)
 - **23.03.2026** API Anbindung und Visualisierung; *Quellen: EVIS* (Lukas)
 - **23.03.2026** Recherche Daten **Bevölkerung (Alter, Geschlecht, plz, Haushalte, Gebiete)** (2025); *Quellen: Statistik Austria, land-oberoesterreich* (Mido)
-- **06.04.2026:** Daten sammeln über **Events** und **Veranstaltungen** (inkl. Erweiterung der Daten für 2027); *Quellen: oesterreich.gv.at* (Merjem)
-- **06.04.2026:** Daten sammeln über **Ausflugziele Natur**; (Merjem)
-- **13.04.2026:** Zur Simulation wurden **synthetische Daten** (Mockdaten) erstellt; (Merjem)
+- **06.04.2026** Daten sammeln über **Events** und **Veranstaltungen** (inkl. Erweiterung der Daten für 2027); *Quellen: oesterreich.gv.at* (Merjem)
+- **06.04.2026** Daten sammeln über **Ausflugziele Natur**; (Merjem)
+- **13.04.2026** Zur Simulation wurden **synthetische Daten** (Mockdaten) erstellt; (Merjem)
 - **14.04.2026** Kompilierung Daten Bevölkerung in json, PLZ referenz bereinigt(Mido)
 - **15.04.2026** Abschluss Generierung von **5k Mockdaten** (Lukas)
 - **16.04.2026** 1000 Mockdaten erstellt (Mido)
+- **30.04.2026** Auswahl des **Datenbanksystems** (Merjem)
 
 
 
