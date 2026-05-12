@@ -1,0 +1,13 @@
+<section class="legend" aria-label="Risikostufen">
+  <h2>Risikostufen</h2>
+
+  <div class="legend-list">
+    @for (item of legendItems; track item.level) {
+      <div class="legend-row">
+        <span class="swatch" [style.background]="item.color"></span>
+        <span>Stufe {{ item.level }}</span>
+        <strong>{{ item.label }}</strong>
+      </div>
+    }
+  </div>
+</section>

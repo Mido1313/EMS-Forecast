@@ -1,0 +1,11 @@
+<section class="map-shell" aria-label="Heatmap der Einsatzwahrscheinlichkeiten">
+  <div #mapContainer class="map"></div>
+
+  @if (isLoading()) {
+    <div class="map-state">Karte wird geladen</div>
+  }
+
+  @if (loadError()) {
+    <div class="map-state error">{{ loadError() }}</div>
+  }
+</section>
