@@ -26,6 +26,8 @@ Basic ReadMe TODO
 - **30.04.2026** Auswahl des **Datenbanksystems** (Merjem)
 - **02.05.2026** Ertellung eines **Frontend-Prototypen** ohne Anbindung (Lukas)
 - **12.05.2026** Daten Generierung zur Verkehrsunfall-Statistik der einzelnen Gebiete; *Quellen: Statistik-Austria, evis.gv.at* (Lukas)
+- **11-17.05.2026** Recherche KI-Adaptierung (Mido)
+- **21.05.2025** ETL-Script für KI-Training, Trainingsdatenvorbereitung (Mido)
 
 
 
