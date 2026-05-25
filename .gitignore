@@ -1,0 +1,172 @@
+# =========================================================
+# Allgemein
+# =========================================================
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Temporäre Dateien
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# Tool-generierte Dateien
+.codex
+
+# Environment Dateien
+.env
+.env.*
+!.env.example
+
+# =========================================================
+# Node.js / Angular
+# =========================================================
+
+# Node Modules (global)
+node_modules/
+
+# Speziell für dein Angular Frontend
+/Frontend/node_modules/
+
+# Angular Build Output
+dist/
+out-tsc/
+.angular/
+.cache/
+
+# Angular / TypeScript
+*.tsbuildinfo
+
+# Package Manager
+# package-lock.json wird committed (reproduzierbare Builds für Angular-App)
+yarn.lock
+pnpm-lock.yaml
+
+# Optional:
+# Falls ihr reproduzierbare Builds wollt -> NICHT ignorieren.
+# Dann einfach diese Zeilen entfernen.
+
+# =========================================================
+# IDEs & Editoren
+# =========================================================
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains
+.idea/
+*.iml
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# =========================================================
+# Backend (.NET)
+# =========================================================
+
+bin/
+obj/
+publish/
+
+# Rider / ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# ASP.NET
+appsettings.Development.json
+
+# =========================================================
+# Datenbanken
+# =========================================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================================================
+# Python (falls für ML/Data Science genutzt)
+# =========================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================================================
+# Datenanalyse / KI / ML
+# =========================================================
+
+# Große Datensätze
+data/raw/
+data/generated/
+datasets/
+exports/
+
+# Modelle
+models/
+checkpoints/
+
+# Trainingsoutputs
+runs/
+wandb/
+
+# =========================================================
+# GeoJSON / Heatmap Exporte
+# =========================================================
+
+*.geojson.bak
+*.topojson.bak
+
+# =========================================================
+# Build / Deployment
+# =========================================================
+
+coverage/
+build/
+release/
+
+# Docker
+.docker/
+
+# =========================================================
+# Secrets / Zertifikate
+# =========================================================
+
+*.pem
+*.key
+*.crt
+*.pfx
+
+# =========================================================
+# Sonstiges
+# =========================================================
+
+*.bak
+*.old
+*.orig

@@ -1,0 +1,164 @@
+<aside class="planning-panel" aria-label="Planungsdashboard">
+  <section class="panel-card summary-card">
+    <div class="section-heading">
+      <span class="eyebrow">Oberösterreich</span>
+      <h2>Prognosezusammenfassung</h2>
+    </div>
+
+    <div class="summary-metric">
+      <span>{{ horizonLabel() }}</span>
+      <strong>{{ formatInteger(summary().totalExpectedIncidents) }}</strong>
+      <small>erwartete Einsätze gesamt</small>
+    </div>
+
+    <div class="summary-row">
+      <span>Trend zu {{ summary().comparisonLabel }}</span>
+      <strong class="{{ trendClass(summary().trendPercent) }}">{{ formatPercent(summary().trendPercent) }}</strong>
+    </div>
+
+    <p class="basis">{{ summary().basisText }}</p>
+
+    <div class="confidence">
+      <span>Prognosesicherheit</span>
+      <strong>{{ summary().confidenceLabel }}</strong>
+      <small>{{ summary().confidenceDescription }}</small>
+    </div>
+  </section>
+
+  @if (selectedForecast(); as forecast) {
+    <section class="panel-card selected-card">
+      <div class="section-heading">
+        <span class="eyebrow">Ausgewähltes Gebiet</span>
+        <h2>{{ forecast.areaName }}</h2>
+      </div>
+
+      <div class="metric-grid">
+        <div>
+          <span>Erwartete Einsätze</span>
+          <strong>{{ formatInteger(forecast.expectedIncidents) }}</strong>
+        </div>
+        <div>
+          <span>pro 10.000 EW</span>
+          <strong>{{ formatDecimal(forecast.incidentsPerTenThousand) }}</strong>
+        </div>
+        <div>
+          <span>Risikostufe</span>
+          <strong>Stufe {{ forecast.riskLevel }}</strong>
+          <small>{{ riskLabel(forecast.riskLevel) }}</small>
+        </div>
+        <div>
+          <span>Trend</span>
+          <strong class="{{ trendClass(forecast.trendPercent) }}">{{ formatPercent(forecast.trendPercent) }}</strong>
+          <small>{{ summary().comparisonLabel }}</small>
+        </div>
+      </div>
+
+      <div class="compact-list">
+        @for (incident of forecast.topIncidentTypes.slice(0, 3); track incident.type) {
+          <div class="compact-row">
+            <span>{{ incident.type }}</span>
+            <strong>{{ formatInteger(incident.expectedIncidents) }}</strong>
+          </div>
+        }
+      </div>
+
+      <p class="planning-hint">{{ planningHint(forecast) }}</p>
+    </section>
+  }
+
+  <section class="panel-card ranking-card">
+    <div class="section-heading">
+      <span class="eyebrow">Planungspriorität</span>
+      <h2>Belastungsranking</h2>
+    </div>
+
+    <div class="ranking-toggle" role="group" aria-label="Rankingmodus">
+      <button
+        type="button"
+        [class.is-active]="rankingMode() === 'absolute'"
+        (click)="setRankingMode('absolute')"
+      >
+        Absolut
+      </button>
+      <button
+        type="button"
+        [class.is-active]="rankingMode() === 'per-capita'"
+        (click)="setRankingMode('per-capita')"
+      >
+        pro 10.000 Einwohner
+      </button>
+    </div>
+
+    <div class="ranking-list">
+      @for (forecast of rankedForecasts(); track forecast.areaId; let index = $index) {
+        <button
+          type="button"
+          class="ranking-row"
+          [class.is-top]="isTopArea(forecast)"
+          [class.is-selected]="isSelectedArea(forecast)"
+          (click)="selectArea(forecast)"
+        >
+          <span class="rank">{{ index + 1 }}</span>
+          <span class="area-name">{{ forecast.areaName }}</span>
+          <strong>{{ formatInteger(forecast.expectedIncidents) }}</strong>
+          <span>{{ formatDecimal(forecast.incidentsPerTenThousand) }}</span>
+          <span class="trend {{ trendClass(forecast.trendPercent) }}">
+            {{ formatPercent(forecast.trendPercent) }}
+          </span>
+        </button>
+      }
+    </div>
+  </section>
+
+  <section class="panel-card">
+    <div class="section-heading">
+      <span class="eyebrow">Schichtprofil</span>
+      <h2>Erwartete Belastung nach Tageszeit</h2>
+    </div>
+
+    <div class="bar-list">
+      @for (segment of summary().timeProfile; track segment.label) {
+        <div class="bar-row">
+          <div>
+            <span>{{ segment.label }}</span>
+            <strong>{{ formatInteger(segment.expectedIncidents) }}</strong>
+          </div>
+          <div class="bar">
+            <span [style.width]="timeProfileBarWidth(segment)"></span>
+          </div>
+        </div>
+      }
+    </div>
+  </section>
+
+  <section class="panel-card">
+    <div class="section-heading">
+      <span class="eyebrow">Treiber</span>
+      <h2>
+        @if (selectedForecast()) {
+          Top-Einsatztypen Gebiet
+        } @else {
+          Top-Einsatztypen gesamt
+        }
+      </h2>
+    </div>
+
+    @if (incidentFocus() !== 'Alle') {
+      <div class="focus-pill">Fokus: {{ incidentFocus() }}</div>
+    }
+
+    <div class="bar-list">
+      @for (incident of visibleIncidentTypes(); track incident.type) {
+        <div class="bar-row" [class.is-focus]="incident.type === incidentFocus()">
+          <div>
+            <span>{{ incident.type }}</span>
+            <strong>{{ formatInteger(incident.expectedIncidents) }}</strong>
+          </div>
+          <div class="bar">
+            <span [style.width]="incidentBarWidth(incident)"></span>
+          </div>
+        </div>
+      }
+    </div>
+  </section>
+</aside>

@@ -1,0 +1,39 @@
+<main class="dashboard">
+  <header class="app-header">
+    <div class="brand-logo-frame">
+      <img src="logo_text_header.png" alt="EMS Forecast OÖ" />
+    </div>
+
+    <button type="button" (click)="clearSelection()" [disabled]="!selectedAreaId()">
+      Gesamtübersicht
+    </button>
+  </header>
+
+  <section class="dashboard-grid">
+    <app-forecast-controls
+      [forecastSteps]="forecastSteps"
+      [horizonIndex]="horizonIndex()"
+      [incidentTypes]="incidentTypes"
+      [incidentFocus]="incidentFocus()"
+      [comparisonPeriods]="comparisonPeriods"
+      [comparisonPeriod]="comparisonPeriod()"
+      (horizonIndexChange)="updateHorizonIndex($event)"
+      (incidentFocusChange)="updateIncidentFocus($event)"
+      (comparisonPeriodChange)="updateComparisonPeriod($event)"
+    />
+
+    <app-forecast-map
+      [forecasts]="forecasts()"
+      [selectedAreaId]="selectedAreaId()"
+      (areaSelected)="selectArea($event)"
+    />
+
+    <app-area-detail-panel
+      [selectedForecast]="selectedForecast()"
+      [summary]="summary()"
+      [horizonLabel]="horizonLabel()"
+      [incidentFocus]="incidentFocus()"
+      (areaSelected)="selectArea($event)"
+    />
+  </section>
+</main>
