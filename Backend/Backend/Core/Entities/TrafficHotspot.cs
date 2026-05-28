@@ -17,7 +17,7 @@ public class TrafficHotspot : EntityObject
     public bool? IsCommuter { get; set; }
 
     public int DistrictId { get; set; }
-    public District? District { get; set; } = null;
+    public District? District { get; set; } = null!;
 
     public IList<Traffic>? Traffics { get; set; } = null!;
     public IList<TrafficAccident>? TrafficAccidents { get; set; } = null!;

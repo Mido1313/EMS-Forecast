@@ -3,12 +3,11 @@
 using Base.Core.Entities;
 using System;   
 
-public class Municipality : EntityObject
+public class Population : EntityObject
 {
-    public required string PostalCodeId { get; set; }  
-    public PostalCode? PostalCode { get; set; } = null!;    
+    public int MunicipalityId { get; set; }
+    public Municipality? Municipality { get; set; } = null!;
 
-    public required string MunicipalityName { get; set; }
-
-    public IList<Population>? Populations { get; set; } = null!;
+    public int ResidentCount { get; set; }
+    public string? AgeStructure { get; set; }
 }

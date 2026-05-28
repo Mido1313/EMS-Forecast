@@ -5,9 +5,13 @@ using System;
 
 using System.Collections.Generic;
 
-public class LocationType : EntityObject
+public class Event : EntityObject
 {
-    public required string LocationTypeName { get; set; }  
+    public required string PostalCodeId { get; set; } 
+    public PostalCode? PostalCode { get; set; } = null!;
 
-    public IList<Incident>? Incidents { get; set; } = null!;
+    public required string Name { get; set; }
+    public DateTime DateFrom { get; set; }
+    public DateTime DateTo { get; set; }
+    public int? ExpectedVisitors { get; set; }
 }

@@ -1,11 +1,12 @@
 ﻿namespace Core.Entities;
 
 using Base.Core.Entities;
+using System;
 
 public class Result : EntityObject
 {
     public int DistrictId { get; set; }
-    public District? District { get; set; } = null;
+    public District? District { get; set; } = null!;
 
     public DateTime WindowFrom { get; set; }
     public DateTime WindowTo { get; set; }
@@ -20,6 +21,7 @@ public class Result : EntityObject
     public DateTime CreatedAt { get; set; }
     public string? ModelVersion { get; set; }
     public decimal? Confidence { get; set; }
+
 
 
 }
