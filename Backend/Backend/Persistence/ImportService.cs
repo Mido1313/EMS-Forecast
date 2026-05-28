@@ -36,7 +36,7 @@ public class ImportService : IImportService
         var fMemos = demosCsv
             .Select(d => d.FName)
             .Distinct()
-            .Select(fn => new FDemo { Name = fn })
+            .Select(fn => new PostalCode { Name = fn })
             .ToDictionary(f => f.Name, f => f);
 
         var mDemos = demosCsv

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 public static class FUserMapping
 {
-    public static void Map(this EntityTypeBuilder<FUser> entity)
+    public static void Map(this EntityTypeBuilder<Result> entity)
     {
         entity.ToTable("FUser");
         entity.HasKey(e => e.Id);

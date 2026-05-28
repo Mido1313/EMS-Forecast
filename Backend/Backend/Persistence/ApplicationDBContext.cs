@@ -39,9 +39,9 @@ public class ApplicationDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<MDemo>().Map();
-        modelBuilder.Entity<FDemo>().Map();
+        modelBuilder.Entity<PostalCode>().Map();
         modelBuilder.Entity<DDemo>().Map();
-        modelBuilder.Entity<FUser>().Map();//probe
+        modelBuilder.Entity<Result>().Map();//probe
 
     }
 }

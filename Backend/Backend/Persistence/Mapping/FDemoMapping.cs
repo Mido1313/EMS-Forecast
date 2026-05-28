@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 public static class FDemoMapping
 {
-    public static void Map(this EntityTypeBuilder<FDemo> entity)
+    public static void Map(this EntityTypeBuilder<PostalCode> entity)
     {
         entity.ToTable("FDemo");
         entity.HasKey(l => l.Id);
