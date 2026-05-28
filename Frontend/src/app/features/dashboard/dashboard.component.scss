@@ -83,9 +83,57 @@ app-area-detail-panel {
   }
 }
 
+/* ─── Mobile tab navigation ──────────────────────────────────────────── */
+.mobile-tabs {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  gap: 4px;
+  border-top: 1px solid var(--line);
+  background: var(--surface);
+  padding: 6px 12px calc(6px + env(safe-area-inset-bottom, 0px));
+  box-shadow: 0 -8px 20px rgb(31 43 37 / 0.08);
+
+  button {
+    flex: 1;
+    min-height: 46px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.82rem;
+    padding: 0;
+    transition: background 120ms;
+
+    &.is-active {
+      background: rgb(18 107 98 / 0.1);
+      color: var(--accent-strong);
+      font-weight: 760;
+    }
+
+    &:not(.is-active):hover {
+      background: var(--surface-muted);
+      transform: none;
+    }
+  }
+}
+
 @media (max-width: 820px) {
   .dashboard {
     padding: 14px;
+    padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .mobile-tabs {
+    display: flex;
+  }
+
+  .mobile-hidden {
+    display: none !important;
   }
 
   .app-header {

@@ -1,0 +1,37 @@
+@if (visible()) {
+  <div class="alert-toast" [class.is-critical]="critical().length > 0" role="alert">
+    <div class="toast-header">
+      <span class="alert-icon" aria-hidden="true">
+        @if (critical().length > 0) { ● } @else { ▲ }
+      </span>
+      <strong class="toast-title">
+        @if (critical().length > 0) {
+          {{ critical().length }}
+          {{ critical().length === 1 ? 'Gebiet' : 'Gebiete' }} mit sehr hohem Risiko (Stufe 5)
+        } @else {
+          {{ areas().length }}
+          {{ areas().length === 1 ? 'Gebiet' : 'Gebiete' }} mit erhöhtem Risiko
+        }
+      </strong>
+      <button type="button" class="dismiss-btn" (click)="dismiss()" aria-label="Meldung schließen">
+        ×
+      </button>
+    </div>
+    <div class="toast-areas">
+      @for (area of displayAreas(); track area.areaId) {
+        <button
+          type="button"
+          class="area-chip"
+          [class.is-level-5]="area.riskLevel >= 5"
+          (click)="selectArea(area, $event)"
+        >
+          <span class="chip-dot level-{{ area.riskLevel }}"></span>
+          {{ area.areaName }} — Stufe {{ area.riskLevel }}
+        </button>
+      }
+      @if (areas().length > 4) {
+        <span class="more-hint">+{{ areas().length - 4 }} weitere</span>
+      }
+    </div>
+  </div>
+}

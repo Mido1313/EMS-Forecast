@@ -9,31 +9,81 @@
     </button>
   </header>
 
+  @if (criticalAreas().length > 0) {
+    <app-alert-toast
+      [areas]="criticalAreas()"
+      (areaSelected)="selectArea($event)"
+    />
+  }
+
   <section class="dashboard-grid">
     <app-forecast-controls
+      class="panel-controls"
+      [class.mobile-hidden]="activeMobileTab() !== 'controls'"
       [forecastSteps]="forecastSteps"
       [horizonIndex]="horizonIndex()"
       [incidentTypes]="incidentTypes"
       [incidentFocus]="incidentFocus()"
       [comparisonPeriods]="comparisonPeriods"
       [comparisonPeriod]="comparisonPeriod()"
+      [comparisonMode]="comparisonMode()"
+      [compareHorizonIndex]="compareHorizonIndex()"
       (horizonIndexChange)="updateHorizonIndex($event)"
       (incidentFocusChange)="updateIncidentFocus($event)"
       (comparisonPeriodChange)="updateComparisonPeriod($event)"
+      (comparisonModeChange)="updateComparisonMode($event)"
+      (compareHorizonIndexChange)="updateCompareHorizonIndex($event)"
     />
 
     <app-forecast-map
+      class="panel-map"
+      [class.mobile-hidden]="activeMobileTab() !== 'map'"
       [forecasts]="forecasts()"
       [selectedAreaId]="selectedAreaId()"
+      [compareForecasts]="compareForecasts()"
+      [comparisonMode]="comparisonMode()"
+      [compareHorizonLabel]="compareHorizonLabel()"
       (areaSelected)="selectArea($event)"
+      (mapLoaded)="onMapLoaded()"
     />
 
     <app-area-detail-panel
+      class="panel-detail"
+      [class.mobile-hidden]="activeMobileTab() !== 'detail'"
       [selectedForecast]="selectedForecast()"
       [summary]="summary()"
       [horizonLabel]="horizonLabel()"
+      [horizonHours]="horizonHours()"
       [incidentFocus]="incidentFocus()"
+      [comparisonPeriod]="comparisonPeriod()"
+      [isLoading]="isMapLoading()"
+      [comparisonMode]="comparisonMode()"
+      [compareHorizonLabel]="compareHorizonLabel()"
       (areaSelected)="selectArea($event)"
     />
   </section>
+
+  <nav class="mobile-tabs" aria-label="Seitennavigation">
+    <button
+      type="button"
+      [class.is-active]="activeMobileTab() === 'controls'"
+      (click)="setMobileTab('controls')"
+    >
+      Einstellungen
+    </button>
+    <button
+      type="button"
+      [class.is-active]="activeMobileTab() === 'map'"
+      (click)="setMobileTab('map')"
+    >
+      Karte
+    </button>
+    <button
+      type="button"
+      [class.is-active]="activeMobileTab() === 'detail'"
+      (click)="setMobileTab('detail')"
+    >
+      Details
+    </button>
+  </nav>
 </main>

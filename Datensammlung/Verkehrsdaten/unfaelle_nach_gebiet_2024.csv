@@ -1,0 +1,16 @@
+Gebiet_ID;Anzahl_PLZ;Bezirke_Basis;Rate_pro_10000_gewichtet;Bevoelkerung_geschaetzt;Unfaelle_gesamt_geschaetzt;Hotspot_Faktor;Unfaelle_hotspot_korrigiert;Verletzte_geschaetzt;Getoetete_geschaetzt
+1;5;Linz;401;208000;8341;1,30;10843;14063;82
+2;7;Wels, Wels-Land;410;70100;2882;1,20;3459;4486;26
+3;32;Rohrbach;413;58100;2400;0,80;1920;2490;15
+4;27;Freistadt;406;66700;2708;0,90;2437;3161;19
+5;28;Perg;411;68100;2799;0,90;2519;3267;19
+6;28;Linz-Land, Eferding, Wels-Land;411;115730;4755;1,10;5231;6785;40
+7;19;Steyr, Steyr-Land;407;46380;1895;1,10;2085;2704;16
+8;29;Kirchdorf, Steyr-Land;412;57400;2366;0,85;2011;2608;15
+9;58;Vöcklabruck, Gmunden, Grieskirchen;413;117300;4856;1,00;4856;6298;37
+10;10;Gmunden;407;100600;4094;0,85;3480;4514;26
+11;37;Ried, Schärding, Grieskirchen;412;58640;2416;0,90;2174;2820;17
+12;46;Braunau am Inn, Ried;406;89290;3622;1,00;3622;4698;28
+13;29;Schärding;415;54500;2262;0,85;1923;2494;15
+14;40;Eferding, Grieskirchen;406;42300;1719;0,90;1547;2006;12
+15;17;Urfahr-Umgebung;416;80900;3365;0,95;3197;4147;24

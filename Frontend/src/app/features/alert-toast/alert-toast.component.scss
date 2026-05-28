@@ -1,0 +1,147 @@
+.alert-toast {
+  display: grid;
+  gap: 10px;
+  border: 1px solid #df8b46;
+  border-left: 4px solid #df8b46;
+  border-radius: 8px;
+  background: #fffaf5;
+  padding: 12px 14px;
+  animation: toast-in 200ms ease;
+}
+
+.alert-toast.is-critical {
+  border-color: #b83255;
+  border-left-color: #b83255;
+  background: #fff5f8;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.toast-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.alert-icon {
+  font-size: 0.65rem;
+  color: #df8b46;
+  animation: pulse-dot 1.6s ease infinite;
+  flex-shrink: 0;
+}
+
+.alert-toast.is-critical .alert-icon {
+  color: #b83255;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.toast-title {
+  flex: 1;
+  font-size: 0.88rem;
+  color: #7a4010;
+}
+
+.alert-toast.is-critical .toast-title {
+  color: #7a1535;
+}
+
+.dismiss-btn {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0;
+  min-height: unset;
+  transition: background 120ms;
+
+  &:hover {
+    background: rgb(0 0 0 / 0.07);
+    transform: none;
+  }
+}
+
+.toast-areas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.area-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: unset;
+  border: 1px solid rgba(223, 139, 70, 0.4);
+  border-radius: 999px;
+  background: rgb(223 139 70 / 0.1);
+  color: #7a4010;
+  cursor: pointer;
+  font-size: 0.8rem;
+  padding: 3px 10px 3px 7px;
+  transition: background 120ms;
+
+  &:hover {
+    background: rgb(223 139 70 / 0.2);
+    transform: none;
+  }
+
+  &.is-level-5 {
+    border-color: rgba(184, 50, 85, 0.4);
+    background: rgb(184 50 85 / 0.1);
+    color: #7a1535;
+
+    &:hover {
+      background: rgb(184 50 85 / 0.2);
+    }
+  }
+}
+
+.chip-dot {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+
+  &.level-4 {
+    background: #df8b46;
+  }
+
+  &.level-5 {
+    background: #b83255;
+  }
+}
+
+.more-hint {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  padding: 3px 6px;
+}

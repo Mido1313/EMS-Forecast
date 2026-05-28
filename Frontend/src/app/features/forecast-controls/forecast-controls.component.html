@@ -78,7 +78,54 @@
     </div>
   </section>
 
-  <section class="control-block">
-    <app-risk-legend />
+  <section class="control-block comparison-toggle-block">
+    <button
+      type="button"
+      class="comparison-toggle-btn"
+      [class.is-active]="comparisonMode()"
+      (click)="toggleComparisonMode()"
+    >
+      <span class="toggle-icon">⟺</span>
+      Vergleichsmodus
+      <span class="toggle-state">{{ comparisonMode() ? 'aktiv' : 'inaktiv' }}</span>
+    </button>
+
+    @if (comparisonMode()) {
+      <div class="compare-horizon">
+        <span class="eyebrow">Vergleichshorizont</span>
+        <strong class="compare-label">{{ compareHorizonLabel() }}</strong>
+        <input
+          type="range"
+          min="0"
+          [max]="forecastSteps().length - 1"
+          [value]="compareHorizonIndex()"
+          (input)="onCompareSliderInput($event)"
+          aria-label="Vergleichshorizont"
+        />
+        <div class="range-labels" aria-hidden="true">
+          <span>1h</span>
+          <span>24h</span>
+          <span>7 Tage</span>
+          <span>30 Tage</span>
+        </div>
+      </div>
+
+      <div class="delta-legend">
+        <span class="eyebrow">Veränderungslegende</span>
+        <div class="delta-items">
+          <span><span class="delta-dot" style="background:#0b6b55"></span>Deutlich geringer</span>
+          <span><span class="delta-dot" style="background:#a0d47f"></span>Etwas geringer</span>
+          <span><span class="delta-dot" style="background:#c4cec8"></span>Keine Änderung</span>
+          <span><span class="delta-dot" style="background:#df8b46"></span>Etwas erhöht</span>
+          <span><span class="delta-dot" style="background:#b83255"></span>Deutlich erhöht</span>
+        </div>
+      </div>
+    }
   </section>
+
+  @if (!comparisonMode()) {
+    <section class="control-block">
+      <app-risk-legend />
+    </section>
+  }
 </aside>

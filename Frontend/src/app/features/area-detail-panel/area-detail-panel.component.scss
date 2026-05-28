@@ -256,6 +256,164 @@ h2 {
   color: var(--text-muted);
 }
 
+/* ─── Skeleton loader ────────────────────────────────────────────────── */
+.skel-card {
+  gap: 12px;
+}
+
+@keyframes skel-pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.skel-line,
+.skel-block,
+.skel-row-item {
+  border-radius: 6px;
+  background: var(--surface-strong);
+  animation: skel-pulse 1.5s ease infinite;
+}
+
+.skel-eyebrow {
+  height: 10px;
+  width: 60px;
+}
+
+.skel-title {
+  height: 16px;
+  width: 140px;
+}
+
+.skel-block {
+  height: 52px;
+}
+
+.skel-body {
+  height: 12px;
+  width: 85%;
+}
+
+.skel-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.skel-row-item {
+  height: 38px;
+}
+
+/* ─── Comparison mode banner ─────────────────────────────────────────── */
+.comparison-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgb(18 107 98 / 0.1);
+  color: var(--accent-strong);
+  font-size: 0.82rem;
+  font-weight: 760;
+  padding: 8px 12px;
+}
+
+/* ─── Heading row with actions ───────────────────────────────────────── */
+.heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.heading-row h2 {
+  flex: 1;
+}
+
+.export-btn {
+  min-height: unset;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface-muted);
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 0.76rem;
+  padding: 4px 9px;
+  transition: background 120ms;
+  white-space: nowrap;
+
+  &:hover {
+    background: var(--surface-strong);
+    color: var(--text);
+    transform: none;
+  }
+}
+
+.view-toggle {
+  display: flex;
+  gap: 4px;
+
+  button {
+    display: grid;
+    place-items: center;
+    min-height: unset;
+    width: 28px;
+    height: 28px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--surface-muted);
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0;
+    transition: background 120ms;
+
+    &.is-active {
+      border-color: rgb(18 107 98 / 0.3);
+      background: rgb(18 107 98 / 0.1);
+      color: var(--accent-strong);
+    }
+
+    &:hover:not(.is-active) {
+      background: var(--surface-strong);
+      transform: none;
+    }
+  }
+}
+
+/* ─── Sparkline block ────────────────────────────────────────────────── */
+.sparkline-block {
+  display: grid;
+  gap: 5px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: var(--surface-muted);
+  color: var(--accent);
+}
+
+.spark-label {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 760;
+  text-transform: uppercase;
+}
+
+/* ─── Historical bars ────────────────────────────────────────────────── */
+.hist-row > div:first-child {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 0 10px;
+  align-items: center;
+}
+
+.hist-row small {
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.hist-bar {
+  background: linear-gradient(90deg, #6fa8a2, #126b62);
+}
+
 @media (max-width: 520px) {
   .metric-grid,
   .ranking-toggle {

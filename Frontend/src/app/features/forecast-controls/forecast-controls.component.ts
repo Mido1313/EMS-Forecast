@@ -55,15 +55,23 @@ export class ForecastControlsComponent {
   readonly comparisonPeriods = input.required<readonly ComparisonPeriodOption[]>();
   readonly comparisonPeriod = input.required<ComparisonPeriod>();
 
+  readonly comparisonMode = input(false);
+  readonly compareHorizonIndex = input(0);
+
   readonly horizonIndexChange = output<number>();
   readonly incidentFocusChange = output<string>();
   readonly comparisonPeriodChange = output<ComparisonPeriod>();
+  readonly comparisonModeChange = output<boolean>();
+  readonly compareHorizonIndexChange = output<number>();
 
   protected readonly checkIcon = Check;
   protected readonly chevronDownIcon = ChevronDown;
   protected readonly isIncidentMenuOpen = signal(false);
   protected readonly horizonLabel = computed(() =>
     formatHorizon(this.forecastSteps()[this.horizonIndex()] ?? 24),
+  );
+  protected readonly compareHorizonLabel = computed(() =>
+    formatHorizon(this.forecastSteps()[this.compareHorizonIndex()] ?? 72),
   );
   protected readonly incidentOptions = computed<IncidentOption[]>(() =>
     this.incidentTypes().map((type) => ({
@@ -91,6 +99,15 @@ export class ForecastControlsComponent {
   protected onSliderInput(event: Event): void {
     const target = event.target as HTMLInputElement;
     this.horizonIndexChange.emit(Number(target.value));
+  }
+
+  protected onCompareSliderInput(event: Event): void {
+    const target = event.target as HTMLInputElement;
+    this.compareHorizonIndexChange.emit(Number(target.value));
+  }
+
+  protected toggleComparisonMode(): void {
+    this.comparisonModeChange.emit(!this.comparisonMode());
   }
 
   protected toggleIncidentMenu(event: MouseEvent): void {

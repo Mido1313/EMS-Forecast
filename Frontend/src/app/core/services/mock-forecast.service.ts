@@ -8,6 +8,7 @@ import {
   RiskLevel,
 } from '../models/forecast-area-result.model';
 import { ForecastSummary } from '../models/forecast-summary.model';
+import { HistoricalRecord } from '../models/historical-record.model';
 import { IncidentTypeProbability } from '../models/incident-type-probability.model';
 import { TimeProfileSegment } from '../models/time-profile-segment.model';
 
@@ -343,6 +344,58 @@ export class MockForecastService {
     const value =
       Math.sin(areaId * 12.9898 + horizonHours * 78.233 + labelValue * 0.017) * 43758.5453;
     return value - Math.floor(value);
+  }
+
+  getSparklineData(
+    areaId: number,
+    incidentFocus = 'Alle',
+    comparisonPeriod: ComparisonPeriod = 'same-weekday',
+  ): number[] {
+    const steps = [1, 6, 12, 24, 48, 72, 120, 168, 336, 720];
+    return steps.map((h) =>
+      this.getForecastForArea(areaId, h, incidentFocus, comparisonPeriod).expectedIncidents,
+    );
+  }
+
+  getHistoricalData(areaId: number | null, incidentFocus = 'Alle'): HistoricalRecord[] {
+    const labels = ['vor 6 T', 'vor 5 T', 'vor 4 T', 'vor 3 T', 'vorgestern', 'gestern', 'heute'];
+
+    const baseForArea = (dayOffset: number): number => {
+      if (areaId !== null) {
+        const base = this.getForecastForArea(areaId, 24, incidentFocus).expectedIncidents;
+        const variation =
+          this.hashToUnit(areaId * 100 + dayOffset, dayOffset * 23, `hist:${incidentFocus}`) *
+            0.35 +
+          0.82;
+        return Math.max(0, Math.round(base * variation));
+      }
+      let total = 0;
+      for (const area of AREA_DEFINITIONS) {
+        const base = this.getForecastForArea(area.id, 24, incidentFocus).expectedIncidents;
+        const variation =
+          this.hashToUnit(area.id * 100 + dayOffset, dayOffset * 23, `hist:${incidentFocus}`) *
+            0.35 +
+          0.82;
+        total += base * variation;
+      }
+      return Math.max(0, Math.round(total));
+    };
+
+    const avg =
+      areaId !== null
+        ? Math.round(this.getForecastForArea(areaId, 24, incidentFocus).expectedIncidents)
+        : Math.round(
+            this.getForecasts(24, incidentFocus).reduce((s, f) => s + f.expectedIncidents, 0),
+          );
+
+    return labels.map((label, index) => {
+      const actual = baseForArea(index);
+      return {
+        label,
+        actualIncidents: actual,
+        comparedToAverage: avg > 0 ? ((actual - avg) / avg) * 100 : 0,
+      };
+    });
   }
 
   private clamp(value: number, min: number, max: number): number {
