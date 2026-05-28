@@ -1,0 +1,13 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+# 1) Hole dir ein Token aus Keycloak (Resource Owner Password Flow für schnelle Tests)
+POST http://91.98.226.185:8080/realms/mySaga/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&client_id=mysaga-backend&client_secret=OdsahwV2grRnPQK2CIqHJcMAXcwkSog3&username=<your-user>&password=<your-password>&scope=offline_access
+
+###
+
+# 2) Teste die Demo-API lokal (Beispiel-Endpoint)
+GET https://localhost:5001/demo/overview
+Authorization: Bearer <paste-access-token-here>
