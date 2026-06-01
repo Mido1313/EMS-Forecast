@@ -28,6 +28,7 @@ Basic ReadMe TODO
 - **12.05.2026** Daten Generierung zur Verkehrsunfall-Statistik der einzelnen Gebiete; *Quellen: Statistik-Austria, evis.gv.at* (Lukas)
 - **11-17.05.2026** Recherche KI-Adaptierung (Mido)
 - **21.05.2025** ETL-Script für KI-Training, Trainingsdatenvorbereitung (Mido)
+- **28.06.2026** **Entities** erstellt (Merjem)
 
 
 
