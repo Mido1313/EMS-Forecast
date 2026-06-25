@@ -37,7 +37,6 @@ Am Ende des Projekts soll ein funktionsfähiger Prototyp vorliegen, der:
 Projektteam:
 - Projektleiter: Lukas Holzmair 
 - Entwickler: Merjem Ramic
-- Entwickler: Mido Zieser-Zerenko
 
 Betreuung:
 - David Klewein
