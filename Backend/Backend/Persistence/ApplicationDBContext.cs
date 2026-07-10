@@ -30,7 +30,7 @@ public class ApplicationDbContext : DbContext
         {
             //We need this for migration
             var connectionString = ConfigurationHelper.GetConfiguration().Get("DefaultConnection", "ConnectionStrings");
-            optionsBuilder.UseSqlite(connectionString);
+            optionsBuilder.UseNpgsql(connectionString);
         }
 
         optionsBuilder.LogTo(message => Debug.WriteLine(message));
@@ -38,10 +38,23 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<MDemo>().Map();
+        modelBuilder.Entity<District>().Map();
         modelBuilder.Entity<PostalCode>().Map();
-        modelBuilder.Entity<DDemo>().Map();
-        modelBuilder.Entity<Result>().Map();//probe
-
+        modelBuilder.Entity<Municipality>().Map();
+        modelBuilder.Entity<Population>().Map();
+        modelBuilder.Entity<LocationType>().Map();
+        modelBuilder.Entity<IncidentType>().Map();
+        modelBuilder.Entity<Incident>().Map();
+        modelBuilder.Entity<Attraction>().Map();
+        modelBuilder.Entity<NursingHome>().Map();
+        modelBuilder.Entity<Event>().Map();
+        modelBuilder.Entity<Weather>().Map();
+        modelBuilder.Entity<PublicHoliday>().Map();
+        modelBuilder.Entity<TrafficHotspot>().Map();
+        modelBuilder.Entity<Traffic>().Map();
+        modelBuilder.Entity<TrafficAccident>().Map();
+        modelBuilder.Entity<TrafficConstruction>().Map();
+        modelBuilder.Entity<AccidentHistory>().Map();
+        modelBuilder.Entity<Result>().Map();
     }
 }

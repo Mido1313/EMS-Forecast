@@ -17,4 +17,7 @@ public class Incident : EntityObject
     public IncidentType? IncidentType { get; set; } = null!;
     public DateTime Timestamp { get; set; }
     public int? Age { get; set; }
+    public int ? AttractionId { get; set; }
+
+    public Attraction? Attraction { get; set; }
 }

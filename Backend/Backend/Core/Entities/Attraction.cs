@@ -1,13 +1,16 @@
 ﻿namespace Core.Entities;
 
 using Base.Core.Entities;
-using System;
-
 using System.Collections.Generic;
 
 public class Attraction : EntityObject
 {
-    public required string LocationTypeName { get; set; }  
+    public required string PostalCodeId { get; set; }
+    public PostalCode? PostalCode { get; set; } = null!;
 
-    public IList<Incident>? Incidents { get; set; } = null!;
+    public required string Name { get; set; }
+    public decimal? RiskSummer { get; set; }
+    public decimal? RiskWinter { get; set; }
+
+    public IList<Incident>? Incidents { get; set; }
 }
