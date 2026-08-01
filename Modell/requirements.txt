@@ -1,0 +1,14 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+fastapi
+uvicorn
+apscheduler
+sqlalchemy
+psycopg2-binary
+joblib
+openpyxl
+python-dotenv

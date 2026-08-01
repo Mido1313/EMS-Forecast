@@ -2,6 +2,138 @@
         {
           "typ": "Feiertag",
           "name": "Neujahr",
+          "start": "01.01.2023",
+          "ende": "01.01.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Heilige Drei Könige",
+          "start": "06.01.2023",
+          "ende": "06.01.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Ostermontag",
+          "start": "10.04.2023",
+          "ende": "10.04.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Staatsfeiertag",
+          "start": "01.05.2023",
+          "ende": "01.05.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Christi Himmelfahrt",
+          "start": "18.05.2023",
+          "ende": "18.05.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Pfingstmontag",
+          "start": "29.05.2023",
+          "ende": "29.05.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Fronleichnam",
+          "start": "08.06.2023",
+          "ende": "08.06.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Mariä Himmelfahrt",
+          "start": "15.08.2023",
+          "ende": "15.08.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Nationalfeiertag",
+          "start": "26.10.2023",
+          "ende": "26.10.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Allerheiligen",
+          "start": "01.11.2023",
+          "ende": "01.11.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Mariä Empfängnis",
+          "start": "08.12.2023",
+          "ende": "08.12.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Heiligabend",
+          "start": "24.12.2023",
+          "ende": "24.12.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Christtag",
+          "start": "25.12.2023",
+          "ende": "25.12.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Stefanitag",
+          "start": "26.12.2023",
+          "ende": "26.12.2023"
+        },
+        {
+          "typ": "Feiertag",
+          "name": "Silvester",
+          "start": "31.12.2023",
+          "ende": "31.12.2023"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Weihnachtsferien",
+          "start": "24.12.2023",
+          "ende": "07.01.2024"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Semesterferien",
+          "start": "20.02.2023",
+          "ende": "25.02.2023"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Osterferien",
+          "start": "01.03.2023",
+          "ende": "10.04.2023"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Pfingstferien",
+          "start": "27.05.2023",
+          "ende": "29.05.2023"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Sommerferien",
+          "start": "08.07.2023",
+          "ende": "10.09.2023"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Herbstferien",
+          "start": "27.10.2023",
+          "ende": "31.10.2023"
+        },
+        {
+          "typ": "Ferien",
+          "name": "Weihnachtsferien",
+          "start": "24.12.2023",
+          "ende": "06.01.2024"
+        }, 
+        {
+          "typ": "Feiertag",
+          "name": "Neujahr",
           "start": "01.01.2024",
           "ende": "01.01.2024"
         },
